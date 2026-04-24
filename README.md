@@ -70,6 +70,13 @@ pip install -r requirements.txt
 pip install pyyaml              # Required for --config flag
 ```
 
+Create a `.env` file for Moodle credentials:
+
+```env
+GLOW_USERNAME=your_username
+GLOW_PASSWORD=your_password
+```
+
 ### Option 2: Install as package (for integration)
 
 ```bash
@@ -79,6 +86,9 @@ pip install -e .
 ## Usage
 
 ### 1. Prepare data
+
+Credentials for `crawl.py` are read from `.env` (`GLOW_USERNAME`, `GLOW_PASSWORD`).
+All other settings (base URL, timezone, year/month, thresholds, anomalies, reporting) are read from `config/default.yaml`.
 
 Download logs from Moodle:
 - Go to **Site administration → Reports → Logs**

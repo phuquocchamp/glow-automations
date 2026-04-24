@@ -15,13 +15,16 @@ import argparse
 import os
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+from dotenv import load_dotenv
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
 
 def load_yaml(path: str) -> dict:
     try:
         import yaml
-        with open(path, 'r', encoding='utf-8') as f:
+
+        with open(path, "r", encoding="utf-8") as f:
             return yaml.safe_load(f) or {}
     except ImportError:
         raise ImportError("pip install pyyaml")
@@ -29,7 +32,7 @@ def load_yaml(path: str) -> dict:
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description='Crawl Moodle site logs theo tháng → data/input/',
+        description="Crawl Moodle site logs theo tháng → data/input/",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -39,40 +42,47 @@ Examples:
         """,
     )
     parser.add_argument(
-        '--config', '-c',
-        default='config/default.yaml',
-        help='Path to YAML config (default: config/default.yaml)',
+        "--config",
+        "-c",
+        default="config/default.yaml",
+        help="Path to YAML config (default: config/default.yaml)",
     )
     parser.add_argument(
-        '--output', '-o',
-        default='data/input',
-        help='Output directory (default: data/input)',
+        "--output",
+        "-o",
+        default="data/input",
+        help="Output directory (default: data/input)",
     )
     parser.add_argument(
-        '--year',
-        type=int, default=None,
-        help='Năm cần crawl (default: lấy từ config general.year)',
+        "--year",
+        type=int,
+        default=None,
+        help="Năm cần crawl (default: lấy từ config general.year)",
     )
     parser.add_argument(
-        '--month',
-        type=int, default=None,
-        help='Tháng cần crawl (default: lấy từ config general.month)',
+        "--month",
+        type=int,
+        default=None,
+        help="Tháng cần crawl (default: lấy từ config general.month)",
     )
     parser.add_argument(
-        '--force',
-        action='store_true',
-        help='Re-download ngay cả khi file đã tồn tại',
+        "--force",
+        action="store_true",
+        help="Re-download ngay cả khi file đã tồn tại",
     )
     parser.add_argument(
-        '--delay',
-        type=float, default=1.0,
-        help='Delay (giây) giữa mỗi request (default: 1.0)',
+        "--delay",
+        type=float,
+        default=1.0,
+        help="Delay (giây) giữa mỗi request (default: 1.0)",
     )
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
+
+    load_dotenv()
 
     if not os.path.isfile(args.config):
         print(f"Error: Config file not found: {args.config}")
@@ -81,27 +91,30 @@ def main():
     cfg = load_yaml(args.config)
 
     # --- Resolve year / month ---
-    year = args.year or cfg.get('general', {}).get('year')
-    month = args.month or cfg.get('general', {}).get('month')
+    year = args.year or cfg.get("general", {}).get("year")
+    month = args.month or cfg.get("general", {}).get("month")
 
     if not year or not month:
-        print("Error: Không tìm được year/month — khai báo trong config general.year/month hoặc dùng --year/--month.")
+        print(
+            "Error: Không tìm được year/month — khai báo trong config general.year/month hoặc dùng --year/--month."
+        )
         sys.exit(1)
 
     year = int(year)
     month = int(month)
 
     # --- Moodle credentials ---
-    moodle_cfg = cfg.get('moodle', {})
-    base_url = moodle_cfg.get('base_url', '').strip()
-    username = moodle_cfg.get('username', '').strip()
-    password = moodle_cfg.get('password', '').strip()
-    tz_offset = int(moodle_cfg.get('timezone_offset', 7))
+    moodle_cfg = cfg.get("moodle", {})
+    base_url = moodle_cfg.get("base_url", "").strip()
+    username = os.getenv("GLOW_USERNAME").strip()
+    password = os.getenv("GLOW_PASSWORD").strip()
+    tz_offset = int(moodle_cfg.get("timezone_offset", 7))
 
     if not base_url or not username or not password:
         print(
             "Error: Thiếu thông tin kết nối Moodle.\n"
-            "Kiểm tra config moodle.base_url / moodle.username / moodle.password."
+            "Kiểm tra config moodle.base_url và .env (GLOW_USERNAME/GLOW_PASSWORD) "
+            "hoặc fallback config moodle.username/moodle.password."
         )
         sys.exit(1)
 
@@ -110,10 +123,12 @@ def main():
 
     crawler = MoodleCrawler(base_url, username, password, tz_offset)
     crawler.login()
-    crawler.crawl_month(year, month, args.output, force=args.force, delay_sec=args.delay)
+    crawler.crawl_month(
+        year, month, args.output, force=args.force, delay_sec=args.delay
+    )
 
     print(f"\nFiles saved to: {os.path.abspath(args.output)}/{year}/{month:02d}/")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

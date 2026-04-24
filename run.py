@@ -162,6 +162,17 @@ def main():
             print(f"Error: No CSV files found in {args.dir}")
             sys.exit(1)
 
+        # Delete existing detail file so re-runs don't double-append sessions
+        first_date = extract_date(csv_files[0])
+        if first_date:
+            _year, _month, _ = first_date.split('-')
+            detail_path = os.path.join(
+                args.output, _year, _month, f'detail_{_year}-{_month}.csv'
+            )
+            if os.path.isfile(detail_path):
+                os.remove(detail_path)
+                print(f"  Cleared existing detail file: {detail_path}")
+
         print(f"\n{'='*60}")
         print(f"BATCH MODE — {len(csv_files)} files in {args.dir}")
         print(f"{'='*60}")

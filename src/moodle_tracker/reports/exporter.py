@@ -307,13 +307,18 @@ class ReportExporter:
         'Total Hours', 'Days Active',
         'Sessions', 'Events',
         'Avg Confidence', 'Anomaly Count', 'Clean Hours', 'Status',
+        'Excluded Sessions',
         'Log URL',
     ]
 
     def export_monthly_summary(self, year: str, month: str, config: Config = None):
         """
-        Đọc combined detail file và tổng hợp theo user.
+        Read the combined detail file and aggregate by user.
         Output: {output_dir}/{year}/{month}/monthly_summary_{year}-{month}.csv
+
+        When config.exclude_session_too_long is True, sessions flagged as
+        session_too_long are excluded from Total Hours / Events / Sessions totals.
+        The count of excluded sessions is written to the 'Excluded Sessions' column.
         """
         detail_path = os.path.join(
             self.output_dir, year, month, f'detail_{year}-{month}.csv'
@@ -321,6 +326,8 @@ class ReportExporter:
         if not os.path.isfile(detail_path):
             print(f"[Exporter] Detail file not found: {detail_path}")
             return
+
+        exclude_too_long = config and config.exclude_session_too_long
 
         user_data: dict = defaultdict(lambda: {
             'user_name': '',
@@ -331,6 +338,7 @@ class ReportExporter:
             'confidences': [],
             'anomaly_count': 0,
             'clean_hours': 0.0,
+            'excluded_sessions': 0,
         })
 
         with open(detail_path, newline='', encoding='utf-8-sig') as f:
@@ -338,9 +346,17 @@ class ReportExporter:
                 uid = row['User ID']
                 d = user_data[uid]
                 d['user_name'] = row['User Name']
+
+                anomaly_types = row.get('Anomaly Types', '')
+                is_too_long = 'session_too_long' in anomaly_types
+
+                if exclude_too_long and is_too_long:
+                    d['excluded_sessions'] += 1
+                    continue  # skip this session from totals
+
                 d['total_hours'] += float(row['Total Hours'])
                 d['days'].add(row['Date'])
-                d['sessions'] += 1  # one row = one session
+                d['sessions'] += 1
                 d['events'] += int(row['Events'])
                 d['confidences'].append(float(row['Confidence']))
                 d['anomaly_count'] += int(row['Anomaly Count'])
@@ -358,6 +374,7 @@ class ReportExporter:
                 d['sessions'], d['events'],
                 avg_conf, d['anomaly_count'], round(d['clean_hours'], 2),
                 _status(d['anomaly_count'], avg_conf),
+                d['excluded_sessions'],
                 log_url,
             ])
 

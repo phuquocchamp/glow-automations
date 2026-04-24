@@ -33,6 +33,7 @@ class Config:
     auto_refresh_tolerance_sec: float = 2.0
     max_ips_per_session: int = 3
     max_session_hours: float = 8.0
+    exclude_session_too_long: bool = False
 
     # Content classification
     media_components: tuple = ('H5P', 'Page', 'URL', 'File')
@@ -72,6 +73,7 @@ class Config:
                 auto_refresh_tolerance_sec=anomaly.get('auto_refresh_tolerance_sec', 2.0),
                 max_ips_per_session=anomaly.get('max_ips_per_session', 3),
                 max_session_hours=anomaly.get('max_session_hours', 8.0),
+                exclude_session_too_long=anomaly.get('exclude_session_too_long', False),
                 media_components=tuple(content.get('media_components', ['H5P', 'Page', 'URL', 'File'])),
                 exclude_event_names=tuple(content.get('exclude_event_names', [])),
                 moodle_base_url=(

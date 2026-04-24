@@ -7,8 +7,6 @@
 # --- Moodle Connection ---
 moodle:
   base_url: "https://glow.paclinks.org"
-  username: "your_username_here"
-  password: "your_password_here"
   # Server timezone offset (hours from UTC).
   # Vietnam = 7 (UTC+7). Used to calculate correct unix timestamp per day.
   timezone_offset: 7
@@ -16,7 +14,7 @@ moodle:
 # --- General Config ---
 general:
   year: 2026
-  month: 3
+  month: 1
 
 # --- Session Detection ---
 session:
@@ -58,6 +56,12 @@ anomaly:
   # Flag if a single session exceeds X hours — unlikely to be genuine study.
   # Sessions this long are flagged as session_too_long (high severity).
   max_session_hours: 8
+
+  # Whether to exclude session_too_long sessions from monthly summary totals.
+  # Set to true to subtract them from Total Hours / Events / Sessions counts.
+  # Excluded sessions are still visible in detail_*.csv with their anomaly flag.
+  # The monthly summary will show how many sessions were excluded per user.
+  exclude_session_too_long: true
 
 # --- Content Classification ---
 content:
