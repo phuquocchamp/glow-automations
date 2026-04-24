@@ -1,11 +1,12 @@
 """
-Phase 3: Detect suspicious patterns trong sessions.
+Phase 3: Detect suspicious patterns in sessions.
 
 Anomaly types:
-  - auto_refresh: gaps đều đặn bất thường (H5P heartbeat, Page auto-reload)
-  - excessive_events: > N events/giờ (auto-refresh, bot)
-  - single_activity_loop: >90% events trên cùng 1 activity
-  - multi_ip: >N unique IPs trong 1 session
+  - auto_refresh: abnormally regular gaps (H5P heartbeat, page auto-reload)
+  - excessive_events: > N events/hour (auto-refresh, bot)
+  - single_activity_loop: >90% events on the same activity
+  - multi_ip: >N unique IPs within a single session
+  - session_too_long: session duration exceeds 8 hours
 """
 
 import statistics
@@ -20,7 +21,7 @@ class AnomalyDetector:
         self.config = config
 
     def analyze(self, sessions: list[Session]) -> list[Session]:
-        """Run tất cả anomaly checks, gắn flags vào mỗi session."""
+        """Run all anomaly checks and attach flags to each session."""
         flagged = 0
         for s in sessions:
             flags = []
@@ -38,12 +39,12 @@ class AnomalyDetector:
 
     def _check_auto_refresh(self, s: Session) -> list[dict]:
         """
-        Detect auto-refresh: gaps đều đặn ± tolerance.
+        Detect auto-refresh: regular gaps within ± tolerance.
 
-        Phát hiện thực tế:
-          - User 8054: Page module auto-reload mỗi 60.0s exact
-          - User 7263: H5P heartbeat mỗi 10.0s
-          - User 8527: Fast Assignment refresh mỗi 11s
+        Real-world cases:
+          - User 8054: Page module auto-reload every 60.0s exact
+          - User 7263: H5P heartbeat every 10.0s
+          - User 8527: Fast Assignment refresh every 11s
         """
         if len(s.events) < 5:
             return []
@@ -87,7 +88,7 @@ class AnomalyDetector:
         return []
 
     def _check_excessive_events(self, s: Session) -> list[dict]:
-        """Flag sessions có > max_events_per_hour."""
+        """Flag sessions with > max_events_per_hour."""
         if s.total_duration_sec < 60:
             return []
         rate = s.event_count / (s.total_duration_sec / 3600)
@@ -100,7 +101,7 @@ class AnomalyDetector:
         return []
 
     def _check_multi_ip(self, s: Session) -> list[dict]:
-        """Flag sessions với nhiều IP addresses."""
+        """Flag sessions with multiple IP addresses."""
         if len(s.ips) > self.config.max_ips_per_session:
             return [{
                 'type': AnomalyType.MULTI_IP.value,
@@ -110,18 +111,19 @@ class AnomalyDetector:
         return []
 
     def _check_session_too_long(self, s: Session) -> list[dict]:
-        """Flag sessions longer than 6 hours — unlikely genuine study."""
+        """Flag sessions exceeding the configured max_session_hours limit — unlikely genuine study."""
         hours = s.total_duration_sec / 3600
-        if hours > 6:
+        limit = self.config.max_session_hours
+        if hours > limit:
             return [{
                 'type': AnomalyType.SESSION_TOO_LONG.value,
                 'severity': 'high',
-                'detail': f'Session duration {hours:.1f}h exceeds 6h limit',
+                'detail': f'Session duration {hours:.1f}h exceeds {limit:.0f}h limit',
             }]
         return []
 
     def _check_single_activity_loop(self, s: Session) -> list[dict]:
-        """Detect lặp lại cùng 1 event_context >90% (auto-reload pattern)."""
+        """Detect repeated events on the same context >90% (auto-reload pattern)."""
         if len(s.events) < 10:
             return []
         contexts = [e.event_context for e in s.events]

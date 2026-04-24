@@ -1,26 +1,25 @@
 # Moodle Time Tracking Engine
 
-Tính giờ học sinh trên Moodle dựa trên site-level logs, với adaptive threshold,
-anomaly detection, cross-validation, và full audit trail.
+Calculates student study hours from Moodle site-level logs, with adaptive thresholds, anomaly detection, cross-validation, and a full audit trail.
 
-## Cấu trúc thư mục
+## Directory Structure
 
 ```
-moodle_time_tracker/
+glow-automation/
 │
-├── README.md                       # File này — hướng dẫn sử dụng
+├── README.md                       # This file
 ├── requirements.txt                # Python dependencies
 ├── setup.py                        # Package setup (optional)
-├── run.py                          # Entry point chính — chạy file này
+├── run.py                          # Main entry point
 │
 ├── config/
-│   └── default.yaml                # Config mặc định (threshold, bonus, filters)
+│   └── default.yaml                # Default config (thresholds, bonus, filters)
 │
 ├── src/
 │   └── moodle_tracker/
 │       ├── __init__.py
 │       │
-│       ├── core/                   # Business logic chính
+│       ├── core/                   # Core business logic
 │       │   ├── __init__.py
 │       │   ├── parser.py           # Phase 1: Parse CSV logs → LogEntry objects
 │       │   ├── session_detector.py # Phase 2: Site-level session detection
@@ -31,97 +30,87 @@ moodle_time_tracker/
 │       ├── reports/                # Output generation
 │       │   ├── __init__.py
 │       │   ├── aggregator.py       # Phase 6: Aggregate sessions → summaries
-│       │   └── exporter.py         # Export CSV, JSON evidence
+│       │   └── exporter.py         # Export CSV reports and evidence
 │       │
 │       ├── utils/                  # Shared utilities
 │       │   ├── __init__.py
 │       │   └── models.py           # Data models (LogEntry, Session, Config, etc.)
 │       │
-│       └── engine.py               # Main orchestrator — chạy full pipeline
-│
-├── tests/                          # Unit tests
-│   ├── __init__.py
-│   ├── test_parser.py
-│   ├── test_session_detector.py
-│   └── test_anomaly_detector.py
+│       └── engine.py               # Main orchestrator — runs the full pipeline
 │
 ├── data/
-│   ├── input/                      # Đặt file CSV logs vào đây
+│   ├── input/                      # Place CSV log files here
 │   │   └── .gitkeep
-│   └── output/                     # Reports được xuất ra đây
+│   └── output/                     # Generated reports are saved here
 │       └── .gitkeep
 │
 └── docs/
-    └── architecture.md             # Tài liệu kiến trúc chi tiết
+    └── architecture.md             # Detailed architecture documentation
 ```
 
-## Yêu cầu hệ thống
+## Requirements
 
 - Python >= 3.10
-- Không cần database — xử lý hoàn toàn trên file CSV
-- Không cần internet — offline processing
+- No database required — fully file-based CSV processing
+- No internet required — offline processing
 
-## Cài đặt
+## Installation
 
-### Option 1: Cài trực tiếp (đơn giản nhất)
+### Option 1: Direct install (simplest)
 
 ```bash
-# 1. Clone hoặc copy project
-git clone <repo-url> moodle_time_tracker
-cd moodle_time_tracker
+git clone <repo-url> glow-automation
+cd glow-automation
 
-# 2. Tạo virtual environment
 python3 -m venv venv
 source venv/bin/activate        # Linux/Mac
 # venv\Scripts\activate         # Windows
 
-# 3. Cài dependencies
 pip install -r requirements.txt
+pip install pyyaml              # Required for --config flag
 ```
 
-### Option 2: Cài như package (cho integration)
+### Option 2: Install as package (for integration)
 
 ```bash
-cd moodle_time_tracker
 pip install -e .
 ```
 
-## Sử dụng
+## Usage
 
-### 1. Chuẩn bị data
+### 1. Prepare data
 
-Download logs từ Moodle:
-- Vào **Site administration → Reports → Logs**
-- Chọn **All participants**, **All days**, **All activities**, **All actions**
-- Quan trọng: chọn **Site logs** (không phải course-level)
+Download logs from Moodle:
+- Go to **Site administration → Reports → Logs**
+- Select **All participants**, **All days**, **All activities**, **All actions**
+- Important: select **Site logs** (not course-level logs)
 - Click **Get these logs** → Download CSV
-- Đặt file CSV vào `data/input/`
+- Name the file `YYYY-MM-DD.csv` and place it in `data/input/`
 
-### 2. Chạy với config mặc định
+### 2. Run with default config
 
 ```bash
-# Từ thư mục gốc project
-python run.py data/input/logs.csv
+python run.py data/input/2026-03-29.csv
 ```
 
-Output sẽ được tạo trong `data/output/`:
+Output is saved to `data/output/`:
 ```
 data/output/
-├── report_per_user.csv            # Tổng giờ mỗi student
-├── report_per_user_course.csv     # Giờ mỗi student × course
-├── report_sessions.csv            # Chi tiết từng session
-├── report_anomalies.csv           # Danh sách sessions bất thường
-└── evidence_audit_trail.json      # Full audit trail cho minh chứng
+├── report_per_user.csv            # Total hours per student
+├── report_per_user_course.csv     # Hours per student × course
+├── report_sessions.csv            # Individual session details
+├── report_anomalies.csv           # Flagged sessions
+└── evidence_audit_trail.csv       # Full audit trail for compliance
 ```
 
-### 3. Chạy với custom config
+### 3. Run with custom config
 
 ```bash
-# Sửa config trong config/default.yaml rồi chạy
-python run.py data/input/logs.csv --config config/default.yaml
+# Edit config/default.yaml then run
+python run.py data/input/2026-03-29.csv --config config/default.yaml
 
-# Hoặc override trực tiếp qua CLI
-python run.py data/input/logs.csv \
+# Or override individual values via CLI
+python run.py data/input/2026-03-29.csv \
     --threshold 1800 \
     --media-threshold 3600 \
     --max-bonus 300 \
@@ -129,65 +118,71 @@ python run.py data/input/logs.csv \
     --output data/output
 ```
 
-### 4. Chạy trong Python code (programmatic)
+### 4. Batch mode — process a full month
+
+```bash
+python run.py --dir data/input/2026/03 --config config/default.yaml
+```
+
+Processes all `*.csv` files in the directory and automatically generates:
+- `data/output/2026/03/detail_2026-03.csv` — one row per user per day
+- `data/output/2026/03/monthly_summary_2026-03.csv` — aggregated by user
+
+### 5. Programmatic usage
 
 ```python
 from src.moodle_tracker.engine import MoodleTimeTracker
 from src.moodle_tracker.utils.models import Config
 
 config = Config(
-    default_threshold_sec=1800,     # 30 phút
-    media_threshold_sec=3600,       # 60 phút cho video/H5P
-    max_bonus_sec=300,              # 5 phút cap
-    min_session_sec=60,             # Loại session < 1 phút
-    min_events_per_session=2,       # Loại 1-click sessions
+    default_threshold_sec=1800,   # 30 min gap threshold
+    media_threshold_sec=3600,     # 60 min for H5P/video content
+    max_bonus_sec=300,            # 5 min bonus cap per session
+    min_session_sec=60,           # Drop sessions shorter than 1 min
+    min_events_per_session=2,     # Drop single-click sessions
 )
 
 tracker = MoodleTimeTracker(config)
 result = tracker.process('data/input/logs.csv')
 
-# result['by_user']         → dict per-user summaries
-# result['by_user_course']  → list per-user-course breakdowns
-# result['sessions']        → list Session objects
-# result['evidence']        → list audit trail dicts
+# result['by_user']         → dict of per-user summaries
+# result['by_user_course']  → list of per-user-course breakdowns
+# result['sessions']        → list of Session objects
+# result['evidence']        → list of audit trail dicts
 # result['summary']         → overall stats
 ```
 
-### 5. Chạy tests
+## Config Parameters
 
-```bash
-python -m pytest tests/ -v
-```
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `default_threshold_sec` | 900 (15m) | Max gap between two events to be in the same session |
+| `media_threshold_sec` | 1200 (20m) | Higher threshold for H5P/Page/Video content |
+| `max_bonus_sec` | 600 (10m) | Max bonus added to the end of each session |
+| `min_session_sec` | 180 (3m) | Sessions shorter than this are discarded |
+| `min_events_per_session` | 2 | Sessions with fewer events are discarded |
+| `max_events_per_hour` | 600 | Flag anomaly if exceeded |
+| `min_gap_std_threshold` | 1.5 | Flag auto-refresh if std(gaps) < X seconds |
+| `auto_refresh_tolerance_sec` | 2.0 | Tolerance window for regularity check |
+| `max_ips_per_session` | 3 | Flag if session has too many unique IPs |
+| `max_session_hours` | 8 | Flag session as `session_too_long` if exceeded |
+| `media_components` | H5P, Page, URL, File | Components that use `media_threshold` |
 
-## Giải thích config parameters
-
-| Parameter | Default | Ý nghĩa |
-|-----------|---------|---------|
-| `default_threshold_sec` | 1800 (30m) | Gap tối đa giữa 2 events để coi cùng session |
-| `media_threshold_sec` | 3600 (60m) | Threshold cao hơn cho H5P/Page/Video content |
-| `max_bonus_sec` | 300 (5m) | Bonus tối đa cộng vào cuối mỗi session |
-| `min_session_sec` | 60 (1m) | Session ngắn hơn bị loại |
-| `min_events_per_session` | 2 | Session 1-click bị loại |
-| `max_events_per_hour` | 200 | Flag anomaly nếu vượt |
-| `min_gap_std_threshold` | 1.5 | Flag auto-refresh nếu std(gaps) < X |
-| `max_ips_per_session` | 3 | Flag nếu quá nhiều IPs |
-| `media_components` | H5P, Page, URL, File | Components dùng media_threshold |
-
-## Đọc output reports
+## Reading Output Reports
 
 ### report_per_user.csv
-Mỗi dòng = 1 student. Cột **Status**:
-- `CLEAN` — không có anomaly nào
-- `HAS ANOMALIES` — có flags nhưng confidence vẫn ok
-- `REVIEW REQUIRED` — confidence thấp, cần teacher xác nhận
+One row per student. **Status** column values:
+- `CLEAN` — no anomalies detected
+- `HAS ANOMALIES` — flags present but confidence is acceptable
+- `REVIEW REQUIRED` — low confidence score, needs teacher verification
 
 ### report_anomalies.csv
-Chỉ chứa sessions bị flag. Anomaly types:
-- `auto_refresh` — gaps đều đặn bất thường (bot/auto-reload)
-- `excessive_events` — quá nhiều events/giờ
-- `single_activity_loop` — >90% events trên 1 activity
-- `multi_ip` — nhiều IP trong 1 session
+Contains only flagged sessions. Anomaly types:
+- `auto_refresh` — abnormally regular gaps (bot/auto-reload pattern)
+- `excessive_events` — too many events per hour
+- `single_activity_loop` — >90% of events on the same activity
+- `multi_ip` — multiple IP addresses within one session
+- `session_too_long` — single session exceeds `max_session_hours` (default 8h)
 
-### evidence_audit_trail.json
-Full evidence cho audit: mỗi session có config_snapshot, first/last event,
-course breakdown, confidence score. Dùng cho compliance reporting.
+### evidence_audit_trail.csv
+Full evidence for auditing: each session includes a config snapshot, first/last event, course breakdown, and confidence score. Used for compliance reporting.

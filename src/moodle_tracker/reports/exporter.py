@@ -182,8 +182,9 @@ class ReportExporter:
 
     _DETAIL_HEADER = [
         'Date', 'User ID', 'User Name',
-        'Total Hours', 'Sessions', 'Events',
-        'Avg Confidence', 'Anomaly Count', 'Clean Hours', 'Status',
+        'Session Start', 'Session End',
+        'Total Hours', 'Events',
+        'Confidence', 'Anomaly Count', 'Clean Hours', 'Status',
         'Anomaly Types', 'Severity', 'Details', 'Log URL',
     ]
 
@@ -196,8 +197,8 @@ class ReportExporter:
         date_str: str = None,
     ):
         """
-        Append rows cho 1 ngày vào combined file `detail_{year}-{mm}.csv`.
-        Header chỉ được ghi khi tạo file mới.
+        Append one row per session to the combined file `detail_{year}-{mm}.csv`.
+        Header is only written when creating a new file.
         """
         if not date_str:
             date_str = (
@@ -220,16 +221,12 @@ class ReportExporter:
             .timestamp()
         )
 
-        by_user: dict = defaultdict(list)
-        for s in sessions:
-            by_user[s.user_id].append(s)
+        sorted_sessions = sorted(sessions, key=lambda s: (s.user_id, s.start_time))
 
-        rows = []
-        for uid, user_sessions in by_user.items():
-            user_sessions.sort(key=lambda s: s.start_time)
-            rows.append(self._build_detail_row(
-                uid, user_sessions, date_str, day_start_ts, config
-            ))
+        rows = [
+            self._build_detail_row(s, date_str, day_start_ts, config)
+            for s in sorted_sessions
+        ]
 
         with open(path, mode, newline='', encoding='utf-8-sig') as f:
             w = csv.writer(f)
@@ -239,63 +236,46 @@ class ReportExporter:
 
     def _build_detail_row(
         self,
-        uid: str,
-        user_sessions: list,
+        s,
         date_str: str,
         day_start_ts: int,
         config: Config,
     ) -> list:
-        user_name = user_sessions[0].user_name
-        total_sec = sum(s.total_duration_sec for s in user_sessions)
-        total_hours = round(total_sec / 3600, 2)
-        session_count = len(user_sessions)
-        event_count = sum(s.event_count for s in user_sessions)
-        avg_conf = round(statistics.mean(s.confidence_score for s in user_sessions), 2)
-        anomaly_count = sum(len(s.anomaly_flags) for s in user_sessions)
-        clean_hours = round(
-            sum(s.total_duration_sec for s in user_sessions if not s.anomaly_flags) / 3600,
-            2,
-        )
-        status = _status(anomaly_count, avg_conf)
+        """Build one CSV row for a single session."""
+        total_hours = round(s.total_duration_sec / 3600, 2)
+        confidence = round(s.confidence_score, 2)
+        anomaly_count = len(s.anomaly_flags)
+        clean_hours = round(s.total_duration_sec / 3600, 2) if not s.anomaly_flags else 0.0
+        status = _status(anomaly_count, confidence)
 
-        # Grouped anomaly info
+        # Collect anomaly type → highest severity for this session
         type_severity: dict = {}
-        for s in user_sessions:
-            for fl in s.anomaly_flags:
-                t = fl['type']
-                sev = fl.get('severity', '')
-                if self._SEV_RANK.get(sev, 0) > self._SEV_RANK.get(type_severity.get(t, ''), 0):
-                    type_severity[t] = sev
+        for fl in s.anomaly_flags:
+            t = fl['type']
+            sev = fl.get('severity', '')
+            if self._SEV_RANK.get(sev, 0) > self._SEV_RANK.get(type_severity.get(t, ''), 0):
+                type_severity[t] = sev
 
-        detail_parts = []
-        for idx, s in enumerate(user_sessions, start=1):
-            if not s.anomaly_flags:
-                continue
-            h = s.total_duration_sec / 3600
-            flag_descs = '; '.join(
-                f"{fl['type']} - {fl.get('detail', '')}" for fl in s.anomaly_flags
-            )
-            detail_parts.append(
-                f"S{idx} [{s.start_time.strftime('%H:%M')}-{s.end_time.strftime('%H:%M')}, "
-                f"{h:.2f}h]: {flag_descs}"
-            )
+        detail = '; '.join(
+            f"{fl['type']} - {fl.get('detail', '')}" for fl in s.anomaly_flags
+        )
 
-        log_url = _build_log_url(config.moodle_base_url, uid, day_start_ts)
+        log_url = _build_log_url(config.moodle_base_url, s.user_id, day_start_ts)
 
         return [
-            date_str, uid, user_name,
-            total_hours, session_count, event_count,
-            avg_conf, anomaly_count, clean_hours, status,
+            date_str, s.user_id, s.user_name,
+            s.start_time.strftime('%H:%M'), s.end_time.strftime('%H:%M'),
+            total_hours, s.event_count,
+            confidence, anomaly_count, clean_hours, status,
             '; '.join(type_severity.keys()),
             '; '.join(type_severity.values()),
-            '\n'.join(detail_parts),
+            detail,
             log_url,
         ]
 
     def finalize_detail(self, year: str, month: str):
         """
-        Sort combined detail file:
-          Total Hours desc → User Name asc → Date asc
+        Sort combined detail file: User Name asc → Date asc → Session Start asc.
         """
         path = os.path.join(self.output_dir, year, month, f'detail_{year}-{month}.csv')
         if not os.path.isfile(path):
@@ -305,10 +285,14 @@ class ReportExporter:
             reader = csv.DictReader(f)
             rows = list(reader)
 
-        rows.sort(key=lambda r: (r['User Name'], r['Date']))
+        has_session_start = 'Session Start' in (rows[0] if rows else {})
+        if has_session_start:
+            rows.sort(key=lambda r: (r['User Name'], r['Date'], r['Session Start']))
+        else:
+            rows.sort(key=lambda r: (r['User Name'], r['Date']))
 
         with open(path, 'w', newline='', encoding='utf-8-sig') as f:
-            w = csv.DictWriter(f, fieldnames=self._DETAIL_HEADER)
+            w = csv.DictWriter(f, fieldnames=self._DETAIL_HEADER, extrasaction='ignore')
             w.writeheader()
             w.writerows(rows)
 
@@ -356,9 +340,9 @@ class ReportExporter:
                 d['user_name'] = row['User Name']
                 d['total_hours'] += float(row['Total Hours'])
                 d['days'].add(row['Date'])
-                d['sessions'] += int(row['Sessions'])
+                d['sessions'] += 1  # one row = one session
                 d['events'] += int(row['Events'])
-                d['confidences'].append(float(row['Avg Confidence']))
+                d['confidences'].append(float(row['Confidence']))
                 d['anomaly_count'] += int(row['Anomaly Count'])
                 d['clean_hours'] += float(row['Clean Hours'])
 
@@ -404,9 +388,9 @@ def _status(anomaly_count: int, avg_confidence: float) -> str:
 
 def _build_log_url(base_url: str, user_id: str, date_ts: int = None) -> str:
     """
-    Moodle log URL cho 1 user.
-    date_ts=None  → không filter ngày (show all logs)
-    date_ts=int   → filter theo ngày cụ thể
+    Build a Moodle log URL for a user.
+    date_ts=None  → no date filter (show all logs)
+    date_ts=int   → filter to a specific day
     """
     if not base_url:
         return ''

@@ -55,6 +55,10 @@ anomaly:
   # Flag if session has > X unique IP addresses.
   max_ips_per_session: 3
 
+  # Flag if a single session exceeds X hours — unlikely to be genuine study.
+  # Sessions this long are flagged as session_too_long (high severity).
+  max_session_hours: 8
+
 # --- Content Classification ---
 content:
   # Components treated as "media" → use media_threshold instead of default.

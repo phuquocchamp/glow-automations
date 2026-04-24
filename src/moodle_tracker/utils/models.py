@@ -32,6 +32,7 @@ class Config:
     min_gap_std_threshold: float = 1.5
     auto_refresh_tolerance_sec: float = 2.0
     max_ips_per_session: int = 3
+    max_session_hours: float = 8.0
 
     # Content classification
     media_components: tuple = ('H5P', 'Page', 'URL', 'File')
@@ -70,6 +71,7 @@ class Config:
                 min_gap_std_threshold=anomaly.get('min_gap_std_threshold', 1.5),
                 auto_refresh_tolerance_sec=anomaly.get('auto_refresh_tolerance_sec', 2.0),
                 max_ips_per_session=anomaly.get('max_ips_per_session', 3),
+                max_session_hours=anomaly.get('max_session_hours', 8.0),
                 media_components=tuple(content.get('media_components', ['H5P', 'Page', 'URL', 'File'])),
                 exclude_event_names=tuple(content.get('exclude_event_names', [])),
                 moodle_base_url=(
