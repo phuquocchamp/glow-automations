@@ -14,12 +14,14 @@ from enum import Enum
 # CONFIG
 # =============================================================================
 
+
 @dataclass
 class Config:
     """
     Tất cả parameters ảnh hưởng đến kết quả tính giờ.
     Lưu vào evidence report dưới dạng config_snapshot.
     """
+
     # Session detection
     default_threshold_sec: int = 1800
     media_threshold_sec: int = 3600
@@ -36,49 +38,60 @@ class Config:
     exclude_session_too_long: bool = False
 
     # Content classification
-    media_components: tuple = ('H5P', 'Page', 'URL', 'File')
+    media_components: tuple = ("H5P", "Page", "URL", "File")
     exclude_event_names: tuple = (
-        'User login failed',
-        'Log report viewed',
-        'Live logs',
+        "User login failed",
+        "Log report viewed",
+        "Live logs",
     )
 
     # Reporting
-    moodle_base_url: str = ''
+    moodle_base_url: str = ""
+    pals_regex: str = r"[A-Z]{2}[0-9]{2}[A-Z]{1}[0-9]{4}"
 
     def to_dict(self) -> dict:
         d = asdict(self)
-        d['media_components'] = list(d['media_components'])
-        d['exclude_event_names'] = list(d['exclude_event_names'])
+        d["media_components"] = list(d["media_components"])
+        d["exclude_event_names"] = list(d["exclude_event_names"])
         return d
 
     @classmethod
-    def from_yaml(cls, path: str) -> 'Config':
+    def from_yaml(cls, path: str) -> "Config":
         """Load config từ YAML file."""
         try:
             import yaml
-            with open(path, 'r') as f:
+
+            with open(path, "r") as f:
                 data = yaml.safe_load(f)
-            session = data.get('session', {})
-            anomaly = data.get('anomaly', {})
-            content = data.get('content', {})
+            session = data.get("session", {})
+            anomaly = data.get("anomaly", {})
+            content = data.get("content", {})
             return cls(
-                default_threshold_sec=session.get('default_threshold_sec', 1800),
-                media_threshold_sec=session.get('media_threshold_sec', 3600),
-                max_bonus_sec=session.get('max_bonus_sec', 300),
-                min_session_sec=session.get('min_session_sec', 60),
-                min_events_per_session=session.get('min_events_per_session', 2),
-                max_events_per_hour=anomaly.get('max_events_per_hour', 200),
-                min_gap_std_threshold=anomaly.get('min_gap_std_threshold', 1.5),
-                auto_refresh_tolerance_sec=anomaly.get('auto_refresh_tolerance_sec', 2.0),
-                max_ips_per_session=anomaly.get('max_ips_per_session', 3),
-                max_session_hours=anomaly.get('max_session_hours', 8.0),
-                exclude_session_too_long=anomaly.get('exclude_session_too_long', False),
-                media_components=tuple(content.get('media_components', ['H5P', 'Page', 'URL', 'File'])),
-                exclude_event_names=tuple(content.get('exclude_event_names', [])),
+                default_threshold_sec=session.get("default_threshold_sec", 1800),
+                media_threshold_sec=session.get("media_threshold_sec", 3600),
+                max_bonus_sec=session.get("max_bonus_sec", 300),
+                min_session_sec=session.get("min_session_sec", 60),
+                min_events_per_session=session.get("min_events_per_session", 2),
+                max_events_per_hour=anomaly.get("max_events_per_hour", 200),
+                min_gap_std_threshold=anomaly.get("min_gap_std_threshold", 1.5),
+                auto_refresh_tolerance_sec=anomaly.get(
+                    "auto_refresh_tolerance_sec", 2.0
+                ),
+                max_ips_per_session=anomaly.get("max_ips_per_session", 3),
+                max_session_hours=anomaly.get("max_session_hours", 8.0),
+                exclude_session_too_long=anomaly.get("exclude_session_too_long", False),
+                media_components=tuple(
+                    content.get("media_components", ["H5P", "Page", "URL", "File"])
+                ),
+                exclude_event_names=tuple(content.get("exclude_event_names", [])),
                 moodle_base_url=(
-                    data.get('reporting', {}).get('moodle_base_url')
-                    or data.get('moodle', {}).get('base_url', '')
+                    data.get("reporting", {}).get("moodle_base_url")
+                    or data.get("moodle", {}).get("base_url", "")
+                ),
+                pals_regex=(
+                    data.get("reporting", {}).get("PALS_REGEX")
+                    or data.get("reporting", {}).get("pals_regex")
+                    or r"[A-Z]{2}[0-9]{2}[A-Z]{1}[0-9]{4}"
                 ),
             )
         except ImportError:
@@ -89,13 +102,17 @@ class Config:
 # LOG ENTRY
 # =============================================================================
 
+
 @dataclass
 class LogEntry:
     """1 dòng log đã parse từ CSV — đơn vị nhỏ nhất."""
+
     timestamp: datetime
     unix_ts: float
     user_id: str
     user_name: str
+    pals_id: str
+    fullname: str
     event_context: str
     component: str
     event_name: str
@@ -112,6 +129,7 @@ class LogEntry:
 # ANOMALY
 # =============================================================================
 
+
 class AnomalyType(Enum):
     AUTO_REFRESH = "auto_refresh"
     BOT_PATTERN = "bot_pattern"
@@ -125,20 +143,24 @@ class AnomalyType(Enum):
 # SESSION
 # =============================================================================
 
+
 @dataclass
 class Session:
     """1 session hoàn chỉnh sau detection + enrichment."""
+
     session_id: int
     user_id: str
     user_name: str
+    pals_id: str
+    fullname: str
     start_time: datetime
     end_time: datetime
     raw_duration_sec: float
     bonus_sec: float
     total_duration_sec: float
     event_count: int
-    events: list                        # List[LogEntry]
-    ips: set                            # Unique IPs
+    events: list  # List[LogEntry]
+    ips: set  # Unique IPs
     confidence_score: float = 0.5
     threshold_used_sec: int = 0
     anomaly_flags: list = field(default_factory=list)
@@ -149,11 +171,15 @@ class Session:
 # AGGREGATION OUTPUT
 # =============================================================================
 
+
 @dataclass
 class CourseTime:
     """Thời gian 1 user × 1 course (aggregated từ nhiều sessions)."""
+
     user_id: str
     user_name: str
+    pals_id: str
+    fullname: str
     course_name: str
     total_sec: float
     session_count: int

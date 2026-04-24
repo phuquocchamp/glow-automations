@@ -72,11 +72,11 @@ class MoodleTimeTracker:
         # Summary
         total_users = len(by_user)
         total_sessions = len(sessions)
-        total_hours = sum(v['total_hours'] for v in by_user.values())
+        total_hours = sum(v["total_hours"] for v in by_user.values())
         flagged = sum(1 for s in sessions if s.anomaly_flags)
-        clean_hours = sum(
-            s.total_duration_sec for s in sessions if not s.anomaly_flags
-        ) / 3600
+        clean_hours = (
+            sum(s.total_duration_sec for s in sessions if not s.anomaly_flags) / 3600
+        )
 
         print("\n" + "=" * 60)
         print("RESULTS SUMMARY")
@@ -86,54 +86,64 @@ class MoodleTimeTracker:
         print(f"  Total hours (all):   {total_hours:.1f}h")
         print(f"  Total hours (clean): {clean_hours:.1f}h")
         if total_sessions > 0:
-            print(f"  Flagged sessions:    {flagged} ({flagged/total_sessions*100:.0f}%)")
-        print(f"  Config: threshold={self.config.default_threshold_sec//60}m, "
-              f"media={self.config.media_threshold_sec//60}m, "
-              f"bonus_cap={self.config.max_bonus_sec//60}m")
+            print(
+                f"  Flagged sessions:    {flagged} ({flagged/total_sessions*100:.0f}%)"
+            )
+        print(
+            f"  Config: threshold={self.config.default_threshold_sec//60}m, "
+            f"media={self.config.media_threshold_sec//60}m, "
+            f"bonus_cap={self.config.max_bonus_sec//60}m"
+        )
 
         return {
-            'config': self.config.to_dict(),
-            'summary': {
-                'total_users': total_users,
-                'total_sessions': total_sessions,
-                'total_hours': round(total_hours, 2),
-                'clean_hours': round(clean_hours, 2),
-                'flagged_sessions': flagged,
+            "config": self.config.to_dict(),
+            "summary": {
+                "total_users": total_users,
+                "total_sessions": total_sessions,
+                "total_hours": round(total_hours, 2),
+                "clean_hours": round(clean_hours, 2),
+                "flagged_sessions": flagged,
             },
-            'by_user': by_user,
-            'by_user_course': [
+            "by_user": by_user,
+            "by_user_course": [
                 {
-                    'user_id': ct.user_id,
-                    'user_name': ct.user_name,
-                    'course_name': ct.course_name,
-                    'total_minutes': round(ct.total_sec / 60, 1),
-                    'session_count': ct.session_count,
-                    'avg_confidence': ct.avg_confidence,
-                    'anomaly_count': ct.anomaly_count,
+                    "user_id": ct.user_id,
+                    "user_name": ct.user_name,
+                    "pals_id": ct.pals_id,
+                    "fullname": ct.fullname,
+                    "course_name": ct.course_name,
+                    "total_minutes": round(ct.total_sec / 60, 1),
+                    "session_count": ct.session_count,
+                    "avg_confidence": ct.avg_confidence,
+                    "anomaly_count": ct.anomaly_count,
                 }
                 for ct in by_user_course
             ],
-            'sessions': sessions,
-            'evidence': evidence,
+            "sessions": sessions,
+            "evidence": evidence,
         }
 
     def export(
         self,
         result: dict,
-        output_dir: str = 'data/output',
+        output_dir: str = "data/output",
         date_str: str = None,
         skip_global: bool = False,
     ):
         """Export all reports to output directory."""
         exporter = ReportExporter(output_dir)
-        exporter.export_all(result, self.config, date_str=date_str, skip_global=skip_global)
+        exporter.export_all(
+            result, self.config, date_str=date_str, skip_global=skip_global
+        )
 
-    def finalize_detail(self, year: str, month: str, output_dir: str = 'data/output'):
+    def finalize_detail(self, year: str, month: str, output_dir: str = "data/output"):
         """Sort combined detail file after all days are processed."""
         exporter = ReportExporter(output_dir)
         exporter.finalize_detail(year, month)
 
-    def export_monthly_summary(self, year: str, month: str, output_dir: str = 'data/output'):
+    def export_monthly_summary(
+        self, year: str, month: str, output_dir: str = "data/output"
+    ):
         """Aggregate combined detail CSV into a monthly summary."""
         exporter = ReportExporter(output_dir)
         exporter.export_monthly_summary(year, month, config=self.config)

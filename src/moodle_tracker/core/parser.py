@@ -25,6 +25,8 @@ class LogParser:
     def __init__(self, config: Config):
         self.config = config
         self._parse_errors = 0
+        self._invalid_pals = 0
+        self._pals_pattern = re.compile(config.pals_regex)
 
     def parse_csv(self, filepath: str) -> list[LogEntry]:
         """
@@ -39,7 +41,7 @@ class LogParser:
         entries = []
         total_rows = 0
 
-        with open(filepath, 'r', encoding='utf-8-sig') as f:
+        with open(filepath, "r", encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 total_rows += 1
@@ -51,8 +53,11 @@ class LogParser:
         entries.sort(key=lambda e: e.unix_ts)
 
         filtered = total_rows - len(entries)
-        print(f"[Parser] {total_rows} rows → {len(entries)} valid entries "
-              f"({filtered} filtered, {self._parse_errors} parse errors)")
+        print(
+            f"[Parser] {total_rows} rows → {len(entries)} valid entries "
+            f"({filtered} filtered, {self._parse_errors} parse errors, "
+            f"{self._invalid_pals} invalid PALS_ID)"
+        )
 
         return entries
 
@@ -60,42 +65,49 @@ class LogParser:
         """Parse + filter 1 CSV row."""
 
         # --- Filter: excluded event names ---
-        event_name = row.get('Event name', '')
+        event_name = row.get("Event name", "")
         if event_name in self.config.exclude_event_names:
             return None
 
         # --- Filter: extract user_id, skip system users ---
-        desc = row.get('Description', '')
+        desc = row.get("Description", "")
         uid_match = self.RE_USER_ID.search(desc)
         if not uid_match:
             return None
         user_id = uid_match.group(1)
-        if user_id in ('0', '-1'):
+        if user_id in ("0", "-1"):
             return None
 
         # --- Filter: skip anonymous rows ---
-        user_name = row.get('User full name', '-')
-        if user_name == '-':
+        raw_user_name = row.get("User full name", "-")
+        if raw_user_name == "-":
             return None
+
+        parsed_user = self._parse_user_name(raw_user_name)
+        if not parsed_user:
+            self._invalid_pals += 1
+            return None
+        pals_id, fullname = parsed_user
+        user_name = f"{pals_id} {fullname}"
 
         # --- Parse timestamp ---
         try:
-            ts = datetime.strptime(row['Time'], "%d/%m/%y, %H:%M:%S")
+            ts = datetime.strptime(row["Time"], "%d/%m/%y, %H:%M:%S")
         except (ValueError, KeyError):
             self._parse_errors += 1
             return None
 
         # --- Extract course info ---
-        event_context = row.get('Event context', '')
-        component = row.get('Component', '')
+        event_context = row.get("Event context", "")
+        component = row.get("Component", "")
 
         course_id = None
         course_name = None
         cid_match = self.RE_COURSE_ID.search(desc)
         if cid_match:
             course_id = cid_match.group(1)
-        if event_context.startswith('Course:'):
-            course_name = event_context.replace('Course: ', '').strip()
+        if event_context.startswith("Course:"):
+            course_name = event_context.replace("Course: ", "").strip()
 
         cmid_match = self.RE_COURSE_MODULE_ID.search(desc)
         course_module_id = cmid_match.group(1) if cmid_match else None
@@ -108,14 +120,35 @@ class LogParser:
             unix_ts=ts.timestamp(),
             user_id=user_id,
             user_name=user_name,
+            pals_id=pals_id,
+            fullname=fullname,
             event_context=event_context,
             component=component,
             event_name=event_name,
             description=desc,
-            origin=row.get('Origin', 'web'),
-            ip_address=row.get('IP address', ''),
+            origin=row.get("Origin", "web"),
+            ip_address=row.get("IP address", ""),
             course_id=course_id,
             course_name=course_name,
             course_module_id=course_module_id,
             is_media=is_media,
         )
+
+    def _parse_user_name(self, raw_user_name: str) -> Optional[tuple[str, str]]:
+        normalized = " ".join(raw_user_name.strip().split())
+        if not normalized:
+            return None
+
+        parts = normalized.split(" ", 1)
+        if len(parts) < 2:
+            return None
+
+        pals_id = parts[0].upper()
+        fullname = parts[1].strip()
+        if not fullname:
+            return None
+
+        if not self._pals_pattern.fullmatch(pals_id):
+            return None
+
+        return pals_id, fullname

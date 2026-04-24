@@ -14,7 +14,7 @@ moodle:
 # --- General Config ---
 general:
   year: 2026
-  month: 1
+  month: 3
 
 # --- Session Detection ---
 session:
@@ -83,4 +83,9 @@ reporting:
   # Base URL of the Moodle site — used to generate log links per user.
   # Example: https://elearning.example.com
   # If empty, falls back to moodle.base_url above.
-  moodle_base_url: ""
+  moodle_base_url: "https://glow.paclinks.org"
+
+  # Regex used to validate PALS_ID extracted from the first token of
+  # "User full name" (after uppercasing).
+  # Example valid ID: QT18P0085
+  PALS_REGEX: "[A-Z]{2}[0-9]{2}[A-Z]{1}[0-9]{4}"

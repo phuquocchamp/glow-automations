@@ -91,6 +91,7 @@ Credentials for `crawl.py` are read from `.env` (`GLOW_USERNAME`, `GLOW_PASSWORD
 All other settings (base URL, timezone, year/month, thresholds, anomalies, reporting) are read from `config/default.yaml`.
 
 Download logs from Moodle:
+
 - Go to **Site administration → Reports → Logs**
 - Select **All participants**, **All days**, **All activities**, **All actions**
 - Important: select **Site logs** (not course-level logs)
@@ -104,6 +105,7 @@ python run.py data/input/2026-03-29.csv
 ```
 
 Output is saved to `data/output/`:
+
 ```
 data/output/
 ├── report_per_user.csv            # Total hours per student
@@ -135,8 +137,15 @@ python run.py --dir data/input/2026/03 --config config/default.yaml
 ```
 
 Processes all `*.csv` files in the directory and automatically generates:
-- `data/output/2026/03/detail_2026-03.csv` — one row per user per day
+
+- `data/output/2026/03/detail_2026-03.csv` — detailed session rows
 - `data/output/2026/03/monthly_summary_2026-03.csv` — aggregated by user
+
+User identity handling:
+
+- `User full name` is split into `PALS_ID` (first token) + `Fullname`.
+- `PALS_ID` is uppercased, validated against `reporting.PALS_REGEX` in `config/default.yaml`.
+- Rows with invalid `PALS_ID` are filtered out before session/report generation.
 
 ### 5. Programmatic usage
 
@@ -164,30 +173,34 @@ result = tracker.process('data/input/logs.csv')
 
 ## Config Parameters
 
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `default_threshold_sec` | 900 (15m) | Max gap between two events to be in the same session |
-| `media_threshold_sec` | 1200 (20m) | Higher threshold for H5P/Page/Video content |
-| `max_bonus_sec` | 600 (10m) | Max bonus added to the end of each session |
-| `min_session_sec` | 180 (3m) | Sessions shorter than this are discarded |
-| `min_events_per_session` | 2 | Sessions with fewer events are discarded |
-| `max_events_per_hour` | 600 | Flag anomaly if exceeded |
-| `min_gap_std_threshold` | 1.5 | Flag auto-refresh if std(gaps) < X seconds |
-| `auto_refresh_tolerance_sec` | 2.0 | Tolerance window for regularity check |
-| `max_ips_per_session` | 3 | Flag if session has too many unique IPs |
-| `max_session_hours` | 8 | Flag session as `session_too_long` if exceeded |
-| `media_components` | H5P, Page, URL, File | Components that use `media_threshold` |
+| Parameter                    | Default              | Description                                          |
+| ---------------------------- | -------------------- | ---------------------------------------------------- |
+| `default_threshold_sec`      | 900 (15m)            | Max gap between two events to be in the same session |
+| `media_threshold_sec`        | 1200 (20m)           | Higher threshold for H5P/Page/Video content          |
+| `max_bonus_sec`              | 600 (10m)            | Max bonus added to the end of each session           |
+| `min_session_sec`            | 180 (3m)             | Sessions shorter than this are discarded             |
+| `min_events_per_session`     | 2                    | Sessions with fewer events are discarded             |
+| `max_events_per_hour`        | 600                  | Flag anomaly if exceeded                             |
+| `min_gap_std_threshold`      | 1.5                  | Flag auto-refresh if std(gaps) < X seconds           |
+| `auto_refresh_tolerance_sec` | 2.0                  | Tolerance window for regularity check                |
+| `max_ips_per_session`        | 3                    | Flag if session has too many unique IPs              |
+| `max_session_hours`          | 8                    | Flag session as `session_too_long` if exceeded       |
+| `media_components`           | H5P, Page, URL, File | Components that use `media_threshold`                |
 
 ## Reading Output Reports
 
 ### report_per_user.csv
+
 One row per student. **Status** column values:
+
 - `CLEAN` — no anomalies detected
 - `HAS ANOMALIES` — flags present but confidence is acceptable
 - `REVIEW REQUIRED` — low confidence score, needs teacher verification
 
 ### report_anomalies.csv
+
 Contains only flagged sessions. Anomaly types:
+
 - `auto_refresh` — abnormally regular gaps (bot/auto-reload pattern)
 - `excessive_events` — too many events per hour
 - `single_activity_loop` — >90% of events on the same activity
@@ -195,4 +208,5 @@ Contains only flagged sessions. Anomaly types:
 - `session_too_long` — single session exceeds `max_session_hours` (default 8h)
 
 ### evidence_audit_trail.csv
+
 Full evidence for auditing: each session includes a config snapshot, first/last event, course breakdown, and confidence score. Used for compliance reporting.

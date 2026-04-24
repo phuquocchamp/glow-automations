@@ -1,531 +1,498 @@
-﻿Month,User ID,User Name,Total Hours,Days Active,Sessions,Events,Avg Confidence,Anomaly Count,Clean Hours,Status,Excluded Sessions,Log URL
-2026-03,7232,QT22P0408 LÊ NGUYỄN THÙY DUNG,86.13,26,53,19658,0.22,94,2.65,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7232
-2026-03,4144,BD19P0251 Mai Bá Khánh Trình,69.28,26,43,22644,0.15,81,0.07,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4144
-2026-03,7280,QN22P0733 TRẦN NGUYỄN MINH DƯƠNG,65.66,16,25,23674,0.12,50,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7280
-2026-03,8054,QT23P0458 TRẦN NGỌC HOÀI PHƯƠNG,53.59,17,25,3326,0.37,32,2.06,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8054
-2026-03,8374,QG23S0002 Pham Truong Anh Huy,46.38,19,37,465,0.56,0,46.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8374
-2026-03,8951,DT24P0806 Đỗ Anh Thư,45.15,31,55,737,0.55,0,45.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8951
-2026-03,431,QN17P0279 TRẦN CHÍNH ĐẠT,44.33,7,13,303,0.4,12,0.56,HAS ANOMALIES,3,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=431
-2026-03,8571,QN24P0829 NGUYỄN TRẦN DIỄM LY,44.27,17,26,1037,0.54,3,36.31,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8571
-2026-03,8173,NA23P0210 Phạm Thị Vân Anh,43.67,21,62,1172,0.6,7,36.39,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8173
-2026-03,8622,QT24P0482 TRẦN THỊ THỦY TIÊN,43.13,6,18,15379,0.18,34,0.23,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8622
-2026-03,8172,NA23P0209 Hoàng Thị Linh,42.35,21,43,1929,0.69,7,32.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8172
-2026-03,7214,QT22P0390 LÊ QUANG HUY,40.71,10,11,1281,0.46,9,4.05,HAS ANOMALIES,8,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7214
-2026-03,8399,DT23P0742 Đỗ Thị Trâm Anh,37.73,24,39,313,0.53,1,35.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8399
-2026-03,8113,PY23P0034 LÊ TƯỜNG VY,37.25,14,19,7108,0.41,18,0.21,HAS ANOMALIES,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8113
-2026-03,9179,QN25P0868 Nguyễn Tô Nhi Phương,36.87,28,93,768,0.55,1,36.2,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9179
-2026-03,8662,AG23P1184 Nguyễn Lương Khánh,36.52,12,34,1221,0.57,4,31.89,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8662
-2026-03,7290,QG22P0597 NGUYỄN HUY HOÀNG,36.17,10,13,5689,0.43,11,0.24,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7290
-2026-03,7471,QT22P0415 HOÀNG PHÚC THỊNH,36.15,9,12,3886,0.54,6,27.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7471
-2026-03,8572,QN24P0830 LÊ VĂN VĨNH KHANG,36.08,12,16,9077,0.19,31,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8572
-2026-03,8111,PY23P0032 NGUYỄN THỊ TƯỜNG VY,35.85,26,43,4538,0.43,32,4.41,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8111
-2026-03,321,HU18P0248 VÕ THỊ HÀ TIÊN,35.43,11,12,1081,0.42,11,2.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=321
-2026-03,8617,QT24P0477 VÕ ANH KHÔI,35.06,11,11,6679,0.35,11,0.0,REVIEW REQUIRED,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8617
-2026-03,8526,BD24P0369 NGUYỄN THỊ THANH TIỀN,35.02,15,53,2975,0.77,1,34.77,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8526
-2026-03,8084,DN23P0500 PHAN QUANG HÀ,28.35,8,9,5860,0.37,10,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8084
-2026-03,7993,QG23P0627 HỒ NGỌC NHƯ QUỲNH,27.14,13,18,1708,0.32,23,0.45,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7993
-2026-03,7212,QT22P0388 TRẦN BÁ HẢI SƠN,26.8,15,20,7034,0.32,25,0.94,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7212
-2026-03,8030,QT23P0434 TRỊNH NGỌC LÂN,25.74,17,20,9979,0.25,36,0.25,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8030
-2026-03,9017,NA24P0267 Nguyễn Hà Anh,25.46,23,53,325,0.54,0,25.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9017
-2026-03,8012,QG23P0646 TRƯƠNG HOÀNG HOÀI THƯƠNG,25.3,8,13,8376,0.31,19,0.99,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8012
-2026-03,8606,HU24P0572 NGUYỄN NGỌC GIA HƯNG,25.08,11,17,687,0.52,5,15.11,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8606
-2026-03,7301,BD22P0332 MAI NGUYÊN HOÀI ĐỨC,24.89,6,8,6295,0.19,16,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7301
-2026-03,4332,QB19P0442 NGUYỄN THỊ HUYỀN,24.68,17,36,541,0.55,1,23.18,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4332
-2026-03,8038,QT23P0442 LÊ THỊ THẢO VY,23.46,15,18,1531,0.58,3,20.71,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8038
-2026-03,4372,QB19P0456 LÊ THỊ THANH HIẾU,23.37,12,50,505,0.52,12,11.24,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4372
-2026-03,8139,HU23P0545 HỒ ĐẮC THÁI BẢO,23.3,7,10,184,0.52,2,10.39,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8139
-2026-03,7937,QB23P0607 NGUYỄN THANH TÂM,22.98,13,25,1050,0.43,19,4.77,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7937
-2026-03,7263,QN22P0716 NGUYỄN TẤN LÀO,22.89,9,10,8210,0.13,20,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7263
-2026-03,8009,QG23P0643 NGUYỄN HỒNG LONG,22.06,11,14,448,0.53,2,15.74,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8009
-2026-03,8037,QT23P0441 TRẦN HỒNG PHI LONG,21.73,10,18,4888,0.33,24,1.34,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8037
-2026-03,8079,DN23P0495 ĐẶNG TÂM AN,20.76,10,12,395,0.44,6,9.82,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8079
-2026-03,9189,QT25G0495 Lê Tiến Đạt,20.36,8,19,107,0.5,2,14.04,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9189
-2026-03,8447,DT23P0787 Phạm Ái Vy,19.95,29,34,390,0.6,0,19.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8447
-2026-03,7946,QB23P0616 NGUYỄN NGỌC QUỲNH HƯƠNG,19.35,10,27,573,0.55,0,19.35,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7946
-2026-03,9449,DN25U0004 Nguyễn Nữ Trà Giang,19.27,20,50,1939,0.65,10,17.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9449
-2026-03,25,PALS16NHO Kim Nho Nguyen,19.27,19,37,1212,0.61,3,15.98,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=25
-2026-03,8555,QN24P0813 NGUYỄN NGỌC THIÊN AN,19.15,9,36,1066,0.63,1,18.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8555
-2026-03,5187,QT20P0316 NGUYỄN THỊ THANH HOÀI,19.06,17,33,1858,0.67,0,19.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5187
-2026-03,8534,BD24P0377 NGUYỄN PHƯƠNG ANH,18.65,15,22,4339,0.74,2,17.01,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8534
-2026-03,2667,QG19P0444 Nguyễn Đức Mạnh,18.34,17,55,282,0.56,0,18.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2667
-2026-03,9447,DT25U0002 Mai Thị Ánh Tuyết,18.16,9,30,509,0.56,4,16.33,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9447
-2026-03,8938,SG24U0006 Ngô Nhật Xuân,18.16,13,43,593,0.55,5,13.76,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8938
-2026-03,669,NA17P0078 Nguyễn Thị Thương,18.01,6,16,708,0.58,2,13.21,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=669
-2026-03,5258,HU20P0422 PHÙNG CHÂU ĐAN VI,17.8,10,25,206,0.51,3,14.14,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5258
-2026-03,8470,NA23P0233 Hoàng Thị Xuân Mai,17.74,20,31,3383,0.69,0,17.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8470
-2026-03,8615,QT24P0475 TRỊNH NGÔ ĐỨC NHÂN,16.88,12,16,3032,0.37,14,3.13,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8615
-2026-03,362,HU17P0141 MAI CHÂU CÁT TƯỜNG,16.46,14,23,350,0.57,0,16.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=362
-2026-03,9182,QN25P0871 Đoàn Ngọc Minh Châu,16.42,17,23,537,0.61,0,16.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9182
-2026-03,9058,BD25P0389 Lê My Khánh,16.19,19,24,643,0.56,11,8.46,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9058
-2026-03,8197,AG22P1165 Nguyễn Thị Bích Châm,16.08,18,21,324,0.57,0,16.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8197
-2026-03,7325,DN22P0466 NGUYỄN ĐĂNG QUANG,15.89,5,6,5228,0.14,12,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7325
-2026-03,5146,QT20P0275 LÊ THỊ NGỌC OANH,15.53,20,38,369,0.57,0,15.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5146
-2026-03,8461,BD23U0002 Phan Nguyễn Kiều My,15.44,15,33,328,0.55,1,13.71,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8461
-2026-03,3589,QN19P0548 VÕ THỊ NHẬT HOÀNG,15.27,5,8,1461,0.44,7,1.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3589
-2026-03,8595,DN24P0526 PHẠM QUỐC CƯỜNG,15.26,7,23,265,0.57,0,15.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8595
-2026-03,8747,DN24P0530 NGUYỄN VIẾT BẢO,15.13,15,33,278,0.55,0,15.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8747
-2026-03,5632,BD19P0219 Nguyễn Đình Phát,15.01,14,15,786,0.48,7,5.03,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5632
-2026-03,8178,NA23P0216 Hoàng Thị Lan Quỳnh,14.97,22,30,231,0.5,0,14.97,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8178
-2026-03,7257,QN22P0710 TRẦN ĐĂNG THƯƠNG,14.94,5,11,248,0.51,3,11.23,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7257
-2026-03,8398,DT23P0741 Lê Thị Huỳnh Sen,14.83,22,55,596,0.57,1,14.53,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8398
-2026-03,6710,QB21P0555 VÕ PHƯƠNG THẢO,14.73,18,25,1102,0.7,0,14.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6710
-2026-03,4362,HU19P0350 NGÔ VIẾT BẢO NGUYÊN,14.71,4,9,476,0.48,4,1.8,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4362
-2026-03,7328,DN22P0469 TRẦN PHÙNG KHÁNH NGỌC,14.62,9,11,5122,0.17,20,0.14,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7328
-2026-03,9101,HU25P0588 Đỗ Như Mai,14.6,27,36,534,0.61,0,14.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9101
-2026-03,7625,QG22P0616 Lê Như Huyền,14.58,8,15,229,0.56,0,14.58,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7625
-2026-03,637,NA17P0024 Nguyễn Thị Khánh Đông,14.56,8,11,443,0.43,8,0.54,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=637
-2026-03,6857,HU21P0503 MAI LÊ BÁ HOÀNG,14.47,6,7,570,0.44,6,0.11,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6857
-2026-03,7964,QN23P0770 VÕ THỊ KỲ DUYÊN,14.17,7,8,3777,0.19,16,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7964
-2026-03,8498,DT23P0802 Nguyễn Thị Nhi,13.82,14,14,631,0.55,4,8.43,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8498
-2026-03,8477,NA23P0240 Phạm Quỳnh Trang,13.46,18,28,171,0.54,0,13.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8477
-2026-03,4347,QN19P0516 NGUYỄN  HOÀNG NHÂN,13.37,2,5,430,0.5,2,10.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4347
-2026-03,7627,QG22P0618 Đinh Thị Minh Ngọc,13.34,12,22,185,0.56,0,13.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7627
-2026-03,8593,DN24P0524 TRẦN THU NGÂN,13.28,29,41,1167,0.59,11,8.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8593
-2026-03,8957,DT24P0812 Dương Như Ý,13.27,10,20,385,0.61,2,11.42,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8957
-2026-03,6455,QT21P0361 Lê Công Nhẫn,13.23,3,5,551,0.59,3,3.84,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6455
-2026-03,9067,DN25G0555 Phan Quỳnh Nhi,13.1,5,17,269,0.56,1,12.23,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9067
-2026-03,8459,NT23U0001 Bùi Thiên An,12.93,12,19,229,0.55,2,11.16,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8459
-2026-03,9190,QT25G0496 Dương Anh Hiếu,12.93,14,27,655,0.57,1,12.88,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9190
-2026-03,8958,DT24P0813 Huỳnh Tường Vy,12.62,12,15,250,0.49,3,9.43,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8958
-2026-03,7941,QB23P0611 PHAN THỊ BẢO NGỌC,12.52,12,20,167,0.54,0,12.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7941
-2026-03,8086,DN23P0502 ĐINH VŨ HÀ THI,12.51,5,12,290,0.56,0,12.51,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8086
-2026-03,8618,QT24P0478 LÊ MINH NHẬT,11.95,6,8,2290,0.42,7,0.17,HAS ANOMALIES,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8618
-2026-03,8011,QG23P0645 HỒ LÂM HUY,11.87,18,35,470,0.56,0,11.87,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8011
-2026-03,9096,HU25P0583 Võ Đức Đồng,11.84,10,18,190,0.58,0,11.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9096
-2026-03,8616,QT24P0476 TRẦN NGUYỄN THU NGUYỆT,11.77,9,22,232,0.58,0,11.77,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8616
-2026-03,8584,DN24P0515 LÊ HOÀNG KHÁNH UYÊN,11.74,7,11,233,0.53,1,11.27,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8584
-2026-03,8169,NA23P0206 Nguyễn Thị Thảo Duyên,11.26,6,21,278,0.51,3,8.53,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8169
-2026-03,7651,BD22P0347 Nguyễn Ngọc Bảo Quốc,11.24,11,18,163,0.54,0,11.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7651
-2026-03,2538,BD19P0166 NGUYỄNTẠ ĐÌNHVIỆT,11.1,9,18,230,0.42,9,2.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2538
-2026-03,8441,DT23P0782 Nguyễn Thị Bão Ngọc,11.01,18,19,189,0.57,0,11.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8441
-2026-03,4949,BD18P0118 TRƯƠNG THỊ BÍCH TRÂM,10.92,14,23,325,0.55,0,10.92,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4949
-2026-03,406,QN17P0230 NGUYỄN THỊ TƯỜNG VI,10.88,5,5,328,0.41,4,0.68,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=406
-2026-03,1805,QG19P0440 Nguyễn Thị Bích Thuận,10.73,5,6,77,0.53,0,10.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1805
-2026-03,8640,BD24P0378 VÕ THÀNH TÍN,10.72,11,20,514,0.66,0,10.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8640
-2026-03,7299,QG22P0606 NGUYỄN HỮU TÌNH,10.71,16,36,617,0.62,7,9.6,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7299
-2026-03,3637,QN19P0552 NGUYỄN TRÚC LAM,10.71,3,8,600,0.43,7,3.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3637
-2026-03,8059,QT23P0463 NGUYỄN THỊ THANH VÂN,10.61,12,24,405,0.58,0,10.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8059
-2026-03,5130,QB20P0511 LÊ THỊ THẢO NHI,10.55,12,20,311,0.61,0,10.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5130
-2026-03,8631,QB24P0628 NGUYỄN THỊ THẢO VY,10.53,7,23,554,0.6,3,8.24,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8631
-2026-03,9065,DN25G0552 Nguyễn Nam Hãn,10.44,12,18,265,0.54,2,7.81,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9065
-2026-03,8527,BD24P0370 KHỔNG PHAN NHẬT MY,9.93,5,7,5677,0.23,13,2.01,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8527
-2026-03,8457,DT23P0796 Nguyễn Thị Mỹ Duyên,9.93,9,37,304,0.54,3,7.02,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8457
-2026-03,7281,QN22P0734 TRẦN TRUNG ĐỨC,9.86,3,3,1430,0.5,2,4.47,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7281
-2026-03,8131,HU23P0537 LÊ NGUYỄN THANH TÂM,9.79,6,10,2666,0.44,10,0.84,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8131
-2026-03,8960,DT24P0815 Võ Thị Thùy Dương,9.63,12,16,176,0.49,1,8.62,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8960
-2026-03,6420,QG21P0573 HUỲNH NGUYỄN THÙY LY,9.61,2,5,2583,0.24,11,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6420
-2026-03,9102,HU25P0589 Nguyễn Lê Gia Khánh,9.54,18,19,1620,0.7,2,8.29,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9102
-2026-03,8448,DT23P0788 Lê Nhật Vy,9.52,12,22,1031,0.66,0,9.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8448
-2026-03,9059,BD25P0390 Bùi Nguyễn Như Ý,9.5,12,23,298,0.54,2,7.18,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9059
-2026-03,8471,NA23P0234 Hoàng Thị Thanh Thảo,9.42,13,17,1294,0.73,1,8.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8471
-2026-03,9106,PY25P0045 Lê Thị Thùy Dung,9.38,10,20,406,0.58,3,6.61,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9106
-2026-03,8035,QT23P0439 LÊ NHẬT HẠ,9.3,11,15,2682,0.49,8,2.08,HAS ANOMALIES,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8035
-2026-03,9448,GL25U0003 Nguyễn Phước An,9.29,15,30,1331,0.62,2,7.07,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9448
-2026-03,8186,NA23P0224 Nguyễn Thùy Linh,9.22,10,18,211,0.56,0,9.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8186
-2026-03,9177,QN25P0866 Trần Văn Ngọc Thiên,9.03,13,14,157,0.55,0,9.03,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9177
-2026-03,6702,BD21P0323 TRẦN THỊNH PHÁT,8.64,15,21,164,0.55,0,8.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6702
-2026-03,9053,BD25P0384 Đỗ Ngọc Tính,8.5,7,8,170,0.56,0,8.5,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9053
-2026-03,9060,BD25P0391 Nguyễn Phương Thùy,8.3,19,35,376,0.59,0,8.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9060
-2026-03,8026,QT23P0430 Hoàng Trần Bảo Nhi,7.99,9,13,572,0.72,1,7.56,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8026
-2026-03,8380,QN23S0006 Le Xuan Tien,7.82,8,14,416,0.61,0,7.82,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8380
-2026-03,1293,QN18P0422 NGUYỄN VĂN TÀI,7.81,15,20,210,0.55,0,7.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1293
-2026-03,7952,QN23P0758 NGÔ TRẦN BẢO YÊN,7.56,5,10,939,0.69,0,7.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7952
-2026-03,8614,QT24P0474 VÕ THỊ KHÁNH NGUYÊN,7.49,9,14,658,0.68,0,7.49,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8614
-2026-03,9226,NA24P0299 Nguyễn Thị Thu Hằng,7.46,15,23,746,0.61,0,7.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9226
-2026-03,3919,BD19P0218 TRƯƠNG HỒ THÙY TRANG,7.38,7,11,151,0.57,1,7.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3919
-2026-03,8765,BD24P0380 NGUYỄN THỊ THANH VÂN,7.3,11,19,118,0.54,0,7.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8765
-2026-03,9099,HU25P0586 Nguyễn Thanh Nhật Trường,7.21,14,18,186,0.55,0,7.21,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9099
-2026-03,9210,NA24P0281 Nguyễn Diệp Anh,7.18,6,13,337,0.63,1,6.79,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9210
-2026-03,7201,QT22P0377 TRƯƠNG THỊ ANH TÚ,7.1,9,9,133,0.51,0,7.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7201
-2026-03,9054,BD25P0385 Lò Đặng Minh Kỳ,7.01,16,25,266,0.55,0,7.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9054
-2026-03,8445,DT23P0786 Huỳnh Thị Yến Linh,6.97,9,18,74,0.51,0,6.97,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8445
-2026-03,9168,QN25P0857 Lê Thị Thu Hiếu,6.95,7,10,96,0.55,0,6.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9168
-2026-03,7262,QN22P0715 ĐẶNG NGUYỄN PHƯƠNG TRINH,6.92,9,14,57,0.54,0,6.92,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7262
-2026-03,8964,DT24P0819 Lê Thị Cẩm Liên,6.89,10,10,153,0.5,0,6.89,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8964
-2026-03,8020,QG23P0654 NGUYỄN HOÀNG DIỆU LAN,6.88,11,23,126,0.55,0,6.88,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8020
-2026-03,9173,QN25P0862 Hồ Trần Đăng Khôi,6.81,11,13,826,0.73,1,5.75,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9173
-2026-03,8346,QN23P0802 Trương Vỹ Nguyên,6.78,5,7,1341,0.33,9,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8346
-2026-03,8601,HU24P0567 NGUYỄN THỊ MINH KHUÊ,6.68,4,9,740,0.71,0,6.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8601
-2026-03,8405,DT23P0748 Lê Thảo Như,6.51,21,31,730,0.59,9,3.88,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8405
-2026-03,8017,QG23P0651 NGUYỄN VŨ ÁI NGA,6.49,4,17,879,0.75,0,6.49,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8017
-2026-03,7691,DN22P0478 BÙI NGỌC BẢO,6.42,16,18,112,0.55,0,6.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7691
-2026-03,7253,QN22P0706 NGUYỄN PHÚC TOÀN,6.41,2,2,2411,0.38,2,0.1,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7253
-2026-03,8075,DN23P0491 NGUYỄN THỊ PHƯỚC VIÊN,6.31,9,15,276,0.62,0,6.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8075
-2026-03,8956,DT24P0811 Bùi Thị Bích Ngọc,6.29,17,26,137,0.56,0,6.29,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8956
-2026-03,8093,BD23P0351 LÊ PHẠM NGỌC HÂN,6.23,14,23,270,0.56,2,6.14,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8093
-2026-03,9456,REINTUK01 Nguyễn Thị Tuyết Nhi,6.2,8,16,416,0.66,0,6.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9456
-2026-03,8529,BD24P0372 PHẠM HUỲNH THƯ,6.16,17,22,215,0.58,0,6.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8529
-2026-03,6859,HU21P0505 PHAN ĐỖ ANH KHOA,6.13,2,2,271,0.38,2,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6859
-2026-03,5841,PALS21KMY Kieu My Le,6.07,11,18,921,0.56,0,6.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5841
-2026-03,9113,QB25P0636 Hoàng Thị Thu Hà,6.07,6,12,281,0.64,0,6.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9113
-2026-03,7300,BD22P0331 HUỲNH VĂN HƯƠNG,6.05,5,7,1672,0.11,14,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7300
-2026-03,7639,QN22P0748 Trần Thị Thùy Vy,5.93,2,2,95,0.48,1,2.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7639
-2026-03,7975,QN23P0781 PHẠM THỊ YẾN NHI,5.81,19,35,322,0.55,0,5.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7975
-2026-03,9170,QN25P0859 Lê Trần Huyền Trân,5.76,9,16,374,0.61,0,5.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9170
-2026-03,8603,HU24P0569 PHAN CÔNG BÔN,5.69,8,16,108,0.55,0,5.69,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8603
-2026-03,5653,DN20P0413 Phạm Thị Kim Ngân,5.67,8,20,728,0.67,0,5.67,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5653
-2026-03,5657,QN20P0637 Nguyễn Thị Ái Trâm,5.65,3,11,92,0.57,0,5.65,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5657
-2026-03,8963,DT24P0818 Trần Thị Ngọc Quý,5.61,13,16,144,0.54,0,5.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8963
-2026-03,7181,QB22P0574 DƯƠNG THỊ THANH TÂM,5.54,4,8,290,0.76,0,5.54,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7181
-2026-03,9187,QN25P0876 Nguyễn Thị Minh Hy,5.5,10,15,266,0.57,1,4.89,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9187
-2026-03,8612,QT24P0472 LÊ MINH TIẾN,5.47,10,11,69,0.55,0,5.47,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8612
-2026-03,9195,QT25P0488 Phạm Hồng Phúc,5.45,11,12,172,0.55,0,5.45,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9195
-2026-03,3928,QG19P0451 NGÔ THỊ TÀI UYÊN,5.32,6,6,184,0.52,1,4.01,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3928
-2026-03,7948,QB23P0618 VÕ NHƯ BẢO NGỌC,5.31,10,17,152,0.54,0,5.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7948
-2026-03,8670,AG23P1192 Võ Thị Yến Linh,5.29,8,17,333,0.58,0,5.29,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8670
-2026-03,6398,QN21P0673 PHAN THỊ HIỀN,5.22,18,20,317,0.56,1,5.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6398
-2026-03,8472,NA23P0235 Hoàng Thị Ngọc Anh,5.21,16,28,514,0.52,13,2.71,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8472
-2026-03,9149,QN25G0900 Đặng Lê Minh Huy,5.16,10,12,177,0.57,0,5.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9149
-2026-03,8099,BD23P0357 NGUYỄN NGUYÊN TƯỜNG VY,5.14,4,4,1278,0.18,8,0.0,REVIEW REQUIRED,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8099
-2026-03,8455,DT23P0794 Trần Thị Mỹ Hương,5.09,11,19,354,0.58,3,3.38,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8455
-2026-03,8966,DT24P0821 Trương Thị Diệu Hồng,5.06,10,10,274,0.67,0,5.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8966
-2026-03,6746,Apple Cat,4.91,9,15,552,0.55,1,4.72,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6746
-2026-03,8370,QN23S0002 Mai Thi Kim Duyen,4.9,1,5,163,0.46,3,0.47,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8370
-2026-03,9093,HU25P0580 Phan Nguyễn Minh Tùng,4.89,11,12,1097,0.68,0,4.89,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9093
-2026-03,8409,DT23P0751 Huỳnh Thị Như Yến,4.85,7,8,137,0.58,0,4.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8409
-2026-03,26,PALS17TUN HOANG TUNG,4.84,9,10,460,0.68,1,4.46,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=26
-2026-03,9162,QN25P0851 Huỳnh Nguyễn Xuân Mai,4.84,12,14,316,0.63,0,4.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9162
-2026-03,9227,NA24P0300 Nguyễn Ngọc Bảo Oanh,4.73,4,5,1534,0.69,0,4.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9227
-2026-03,7195,QB22P0588 DƯƠNG THỊ HỒNG VÂN,4.72,2,3,285,0.48,1,0.38,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7195
-2026-03,8376,HU23S0001 Pham Quang Thang,4.67,14,35,151,0.53,0,4.67,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8376
-2026-03,6720,QT21P0366 NGUYỄN NHƯ THUẬT,4.65,3,3,162,0.48,1,2.21,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6720
-2026-03,9145,QN25G0896 Nguyễn Thị Thanh Thương,4.64,10,14,315,0.57,1,4.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9145
-2026-03,8512,TEAMA21 Quoc Hoang,4.52,10,14,223,0.55,0,4.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8512
-2026-03,910,QG18P0355 LÊ THỊ TUYẾT MAI,4.42,5,6,157,0.55,0,4.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=910
-2026-03,858,DN18P0285 PHẠM MAI THI,4.4,9,16,81,0.5,0,4.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=858
-2026-03,9016,NA24P0266 Hoàng Thị Khánh Minh,4.39,12,18,167,0.54,0,4.39,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9016
-2026-03,7966,QN23P0772 VÕ HOÀNG LINH PHƯỢNG,4.38,13,18,148,0.54,0,4.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7966
-2026-03,7630,QG22P0621 Đỗ Trọng Đạt,4.34,9,20,121,0.55,0,4.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7630
-2026-03,3594,QN19P0523 LÊ THỊ HOÀI LINH,4.34,7,11,80,0.55,0,4.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3594
-2026-03,6734,QN21P0695 NGUYỄN THỊ THẢO NGUYÊN,4.34,5,6,54,0.54,0,4.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6734
-2026-03,9176,QN25P0865 Trương Quang Nhựt,4.27,7,7,114,0.6,0,4.27,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9176
-2026-03,9018,NA24P0268 Nguyễn Hà Anh,4.22,16,24,602,0.56,14,2.28,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9018
-2026-03,5474,QT19P0230 Nguyễn Quang Huy,4.19,5,9,69,0.54,0,4.19,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5474
-2026-03,3551,PALS20NGO Rosa Nguyen,4.17,10,18,379,0.54,1,3.97,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3551
-2026-03,7643,QN22P0742 Trần Thị Hoa Viên,4.09,12,16,111,0.55,0,4.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7643
-2026-03,8530,BD24P0373 NGUYỄN THÀNH ĐẠT,4.04,3,6,135,0.62,0,4.04,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8530
-2026-03,8165,DN23P0508 NGUYỄN HẢI TRÍ,4.04,13,25,409,0.56,2,3.74,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8165
-2026-03,8537,QG24P0661 HỒ TẤN SANG,3.99,5,12,117,0.56,0,3.99,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8537
-2026-03,8022,QG23P0656 VÕ AN PHÚC,3.94,6,14,101,0.58,0,3.94,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8022
-2026-03,9011,NA24P0257 Nguyễn Thị Nhung,3.91,5,10,95,0.55,0,3.91,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9011
-2026-03,8069,DN23P0485 HOÀNG ANH THƯ,3.9,9,9,93,0.55,0,3.9,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8069
-2026-03,9129,QG25P0676 Từ Lê Ngọc Trinh,3.88,7,14,164,0.55,0,3.88,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9129
-2026-03,7180,QB22P0573 NGUYỄN NGỌC BẢO LINH,3.86,7,17,121,0.54,0,3.86,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7180
-2026-03,9201,NA24P0295 Phạm Hải Yến,3.83,9,13,337,0.65,0,3.83,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9201
-2026-03,8025,QT23P0429 NGUYỄN VIẾT HỌC,3.8,6,8,301,0.57,0,3.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8025
-2026-03,7989,QN23P0795 LÝ THỊ TRÚC QUỲNH,3.74,3,7,119,0.57,0,3.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7989
-2026-03,8860,QN24P0846 VÕ HOÀNG DUNG,3.73,12,15,220,0.58,0,3.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8860
-2026-03,7286,QG22P0593 TRƯƠNG MỸ ÂN,3.71,9,15,182,0.54,2,2.8,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7286
-2026-03,5219,HU20P0383 NGUYỄN BÍCH CHÂU,3.56,5,8,252,0.68,0,3.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5219
-2026-03,3912,BD19P0203 Phạm Minh Ngân,3.55,11,12,79,0.54,0,3.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3912
-2026-03,8175,NA23P0212 Nguyễn Thị Khánh Linh,3.54,17,20,152,0.55,0,3.54,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8175
-2026-03,3903,DN19P0358 ĐỖ THỊ THANH NGA,3.44,5,10,75,0.55,0,3.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3903
-2026-03,8978,DT24P0833 Trần Thị Ý Ngọc,3.43,6,7,81,0.5,0,3.43,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8978
-2026-03,532,Hong Nhan Ho Thi,3.42,11,17,240,0.56,0,3.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=532
-2026-03,9460,PALS26THO Thong Nguyen,3.41,4,11,455,0.56,0,3.41,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9460
-2026-03,8085,DN23P0501 HUỲNH PHÚC TẤN,3.32,3,3,624,0.42,3,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8085
-2026-03,9156,QN25G0908 Nguyễn Bảo Tuệ,3.32,11,19,128,0.55,0,3.32,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9156
-2026-03,8386,PY23S0003 Trinh Thi Bich Thao,3.31,5,12,132,0.57,0,3.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8386
-2026-03,8148,HU23P0554 PHẠM NGỌC ANH THƯ,3.29,5,11,115,0.56,0,3.29,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8148
-2026-03,8400,DT23P0743 Trần Thị Mỹ Anh,3.26,13,20,103,0.55,0,3.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8400
-2026-03,7945,QB23P0615 NGUYỄN THỊ MAI LÀNH,3.24,8,13,129,0.57,0,3.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7945
-2026-03,1311,QN18P0438 NGUYỄN THỊ THU SƯƠNG,3.18,7,12,45,0.55,0,3.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1311
-2026-03,8561,QN24P0819 PHẠM THỊ HOÀI MY,3.14,5,11,229,0.62,0,3.14,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8561
-2026-03,7323,DN22P0464 HỒ THỊ Ý NHI,3.1,4,4,851,0.48,2,0.76,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7323
-2026-03,9111,QB25P0634 Đoàn Thị Bảo Ngọc,3.07,2,5,27,0.54,0,3.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9111
-2026-03,6284,BD21P0304 NGUYỄN THỊ PHƯƠNG THẢO,3.06,12,14,39,0.5,0,3.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6284
-2026-03,8962,DT24P0817 Trần Bảo Thi,3.06,10,11,76,0.5,0,3.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8962
-2026-03,8055,QT23P0459 TRẦN THỊ HƯƠNG THƠM,3.06,10,13,117,0.55,0,3.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8055
-2026-03,7679,QN22P0752 TRẦN THỊ DÂNG,3.04,5,9,65,0.56,0,3.04,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7679
-2026-03,7312,PY22P0011 LÊ THỊ HỒNG NHƯ,3.02,6,7,113,0.59,0,3.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7312
-2026-03,8552,QN24P0810 NGUYỄN THỊ ÁI NHI,3.01,6,8,145,0.59,0,3.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8552
-2026-03,8608,HU24P0574 NGUYỄN THANH BÌNH,2.95,4,12,146,0.55,0,2.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8608
-2026-03,24,PALS07HON Hồng Nguyễn,2.87,10,14,260,0.54,0,2.87,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=24
-2026-03,8023,QT23P0427 NGUYỄN THỊ MINH THÙY,2.85,9,11,122,0.58,1,2.64,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8023
-2026-03,9165,QN25P0854 Nguyễn Hồng Y Hoài,2.82,6,9,108,0.59,0,2.82,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9165
-2026-03,6691,DN21P0445 TRẦN LÊ NHƯ Ý,2.81,3,6,84,0.56,0,2.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6691
-2026-03,2702,QG19P0497 BÙI NỮ NHẤT,2.8,9,16,306,0.63,4,2.14,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2702
-2026-03,8402,DT23P0745 Lê Ngọc Lụa,2.75,5,8,50,0.54,0,2.75,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8402
-2026-03,8130,HU23P0536 NGUYỄN THỊ NGỌC HUYỀN,2.74,4,8,56,0.54,0,2.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8130
-2026-03,8581,DN24P0512 TRẦN HOÀNG BẢO TRÂM,2.73,4,5,51,0.56,0,2.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8581
-2026-03,9095,HU25P0582 Đỗ Bảo Nhi,2.72,6,13,73,0.54,0,2.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9095
-2026-03,9130,QG25P0677 Nguyễn Tuấn Kiệt,2.68,8,13,72,0.54,0,2.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9130
-2026-03,7951,QN23P0757 TRẦN LỆ QUYÊN,2.66,8,10,132,0.54,2,2.12,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7951
-2026-03,7973,QN23P0779 LÊ HỒ ÁNH NHI,2.66,7,11,124,0.61,0,2.66,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7973
-2026-03,8523,PY24P0042 LÊ NGUYỄN QUỲNH TIÊN,2.65,11,16,135,0.55,0,2.65,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8523
-2026-03,7218,QT22P0394 NGUYỄN TẤN ĐỨC,2.64,2,4,33,0.54,0,2.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7218
-2026-03,9010,NA24P0256 Nguyễn Thị Phượng,2.6,7,11,151,0.6,2,1.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9010
-2026-03,9132,QN25G0877 Võ Thị Diễm Hằng,2.59,4,12,153,0.64,0,2.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9132
-2026-03,6480,HU21P0462 THÁI NGUYỄN THÙY TRANG,2.58,6,9,54,0.54,0,2.58,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6480
-2026-03,8179,NA23P0217 Trần Thị Hương Trà,2.56,5,7,149,0.66,0,2.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8179
-2026-03,7687,QT22P0425 Phạm Lê Ngọc Hiền,2.56,6,8,71,0.56,0,2.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7687
-2026-03,9103,PY25G0046 Mai Quốc Nam,2.55,4,5,68,0.58,0,2.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9103
-2026-03,8387,BV23S0001 Nguyen Le Thanh Huyen,2.49,8,8,43,0.54,0,2.49,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8387
-2026-03,7305,BD22P0336 NGUYỄN THỊ KIỀU TRINH,2.44,5,5,37,0.55,0,2.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7305
-2026-03,1604,PALS19DUY Duyen Le,2.42,5,8,269,0.69,0,2.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1604
-2026-03,6700,DN21P0442 PHẠM THỊ ANH ĐÀO,2.4,6,9,72,0.54,0,2.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6700
-2026-03,8053,QT23P0457 MAI VĨNH CƯỜNG,2.4,9,11,32,0.5,0,2.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8053
-2026-03,9086,HU25G0591 Phan Nguyễn Bảo Ngọc,2.38,6,6,216,0.66,0,2.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9086
-2026-03,5004,HU19P0320 Nguyễn Văn Minh Duy,2.34,4,5,43,0.56,0,2.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5004
-2026-03,8406,DT23P0749 Nguyễn Thị Ngọc Trân,2.32,8,12,66,0.55,0,2.32,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8406
-2026-03,7468,QT22P0412 NGUYỄN BÁ DŨNG,2.29,2,7,84,0.49,2,1.49,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7468
-2026-03,53,PALS06LOA Loan Nguyen,2.26,5,7,339,0.66,0,2.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=53
-2026-03,3479,HU19P0290 Phạm Thị Trang Uyên,2.25,6,7,38,0.58,0,2.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3479
-2026-03,8560,QN24P0818 LÊ HOÀNG KIỀU NHI,2.25,3,4,62,0.54,0,2.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8560
-2026-03,9196,QT25P0489 Nguyễn Thị Huyền,2.25,2,3,31,0.55,0,2.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9196
-2026-03,9213,NA24P0284 Đậu Thị Hằng,2.24,6,7,219,0.7,0,2.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9213
-2026-03,3588,QN19P0547 VÕ THỊ NGỌC ÁNH,2.24,4,4,29,0.55,0,2.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3588
-2026-03,7460,QG22P0608 NGUYỄN QUỐC NHẬT,2.23,2,4,25,0.53,0,2.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7460
-2026-03,8755,BD24P0381 LÊ THỊ TRÚC NGÂN,2.22,5,6,196,0.6,0,2.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8755
-2026-03,7241,HU22P0513 PHẠM THỊ HOÀI NHƯ,2.13,5,7,30,0.51,0,2.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7241
-2026-03,8570,QN24P0828 NGUYỄN THÀNH MẠNH,2.13,2,2,488,0.23,3,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8570
-2026-03,7634,QG22P0625 Trần Mai Phương,2.11,6,8,40,0.52,0,2.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7634
-2026-03,7990,QN23P0796 NGUYỄN TRẦN NHƯ HÒA,2.07,6,7,141,0.59,0,2.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7990
-2026-03,9167,QN25P0856 Nguyễn Dương Gia Bảo,2.05,2,2,17,0.55,0,2.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9167
-2026-03,5286,DN20P0393 NGUYỄN THIỆN NHÂN,2.03,6,8,49,0.53,0,2.03,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5286
-2026-03,9453,Reint01 Intern,2.02,1,5,291,0.8,0,2.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9453
-2026-03,7684,QT22P0422 TRỊNH THỊ NGỌC NHƯ,1.99,3,5,754,0.73,0,1.99,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7684
-2026-03,7213,QT22P0389 NGUYỄN THÀNH TRUNG,1.98,10,12,118,0.64,0,1.98,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7213
-2026-03,9008,NA24P0254 Nguyễn Thị Bảo Ngọc,1.9,5,5,338,0.71,0,1.9,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9008
-2026-03,8953,DT24P0808 Phạm Thị Ngọc Trinh,1.88,5,5,135,0.63,0,1.88,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8953
-2026-03,8160,QN23P0798 ĐINH HOÀNG KHÁNH NGỌC,1.88,2,4,97,0.5,3,0.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8160
-2026-03,7215,QT22P0391 LÊ NHƯ Ý,1.84,7,8,39,0.53,0,1.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7215
-2026-03,9061,BD25P0401 Phạm Bảo Khang,1.83,2,2,12,0.53,0,1.83,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9061
-2026-03,7224,QT22P0400 NGUYỄN THÚY HÀ,1.83,10,11,120,0.6,0,1.83,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7224
-2026-03,5113,QB20P0494 HOÀNG THỊ THÙY DƯƠNG,1.8,6,7,117,0.61,0,1.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5113
-2026-03,7978,QN23P0784 NGUYỄN THỊ XINH XINH,1.8,8,10,67,0.53,0,1.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7978
-2026-03,8559,QN24P0817 NGUYỄN HOÀNG THANH THUÝ,1.8,3,4,36,0.56,0,1.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8559
-2026-03,7316,PY22P0015 NGUYỄN LINH ĐAN,1.76,4,6,44,0.57,0,1.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7316
-2026-03,9199,QT25P0492 Nguyễn Mai Yến Như,1.74,4,5,41,0.55,0,1.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9199
-2026-03,9077,DN25P0540 Lê Đăng Phương Oanh,1.72,2,4,122,0.65,0,1.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9077
-2026-03,8545,QG24P0669 VÕ THANH DUY,1.72,4,10,154,0.57,2,1.45,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8545
-2026-03,9174,QN25P0863 Nguyễn Hà My My,1.72,3,3,327,0.85,0,1.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9174
-2026-03,7655,QG22P0611 Đinh Long Nhật,1.7,3,3,539,0.3,5,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7655
-2026-03,15,hau le,1.7,5,9,153,0.53,0,1.7,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=15
-2026-03,8676,AG23P1198 Nguyễn Thị Bảo Gấm,1.69,3,3,28,0.55,0,1.69,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8676
-2026-03,7958,QN23P0764 NGUYỄN NGỌC HÒA MY,1.69,4,6,39,0.57,0,1.69,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7958
-2026-03,6711,QB21P0557 NGUYỄN THỊ QUỲNH NHƯ,1.68,7,9,50,0.54,0,1.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6711
-2026-03,5161,Truong Phong,1.64,8,9,130,0.57,0,1.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5161
-2026-03,8949,DT24P0804 Phạm Ngọc Diệu Nghiêm,1.63,10,11,298,0.68,1,1.56,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8949
-2026-03,9164,QN25P0853 Huỳnh Thị Thanh Tâm,1.62,4,9,59,0.55,0,1.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9164
-2026-03,7183,QB22P0576 TRẦN TÂM NHƯ,1.6,6,7,140,0.69,0,1.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7183
-2026-03,7646,QN22P0745 Trần Nguyễn Hồng Ngọc,1.59,6,7,38,0.54,0,1.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7646
-2026-03,7327,DN22P0468 NGUYỄN NGỌC MINH THƯ,1.57,8,8,44,0.53,0,1.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7327
-2026-03,7969,QN23P0775 NGUYỄN THẢO VY,1.57,4,7,59,0.54,1,1.19,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7969
-2026-03,8551,QN24P0809 TRẦN THỊ TÂM,1.56,1,1,10,0.55,0,1.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8551
-2026-03,9446,Alexya Tran,1.55,8,10,121,0.56,0,1.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9446
-2026-03,8592,DN24P0523 NGÔ QUANG NHÂN,1.53,3,4,41,0.55,0,1.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8592
-2026-03,6325,DN21P0440 NGUYỄN ĐẶNG MINH HƯƠNG,1.51,1,1,96,0.4,1,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6325
-2026-03,9172,QN25P0861 Lê Thị Thảo Nguyên,1.51,4,4,180,0.61,1,1.43,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9172
-2026-03,1906,QG19P0476 Nguyễn Đình Thơ,1.48,5,6,40,0.54,0,1.48,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1906
-2026-03,9400,Xiaohan Li,1.48,6,7,66,0.56,0,1.48,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9400
-2026-03,8371,QN23S0003 Hoang Thi Duyen,1.47,2,2,80,0.57,0,1.47,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8371
-2026-03,8501,JP24P0003 Phan Thị Huyền,1.46,6,8,143,0.62,0,1.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8501
-2026-03,6694,DN21P0449 ĐOÀN GIA KHÁNH,1.44,1,2,40,0.53,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6694
-2026-03,6722,HU21P0490 THÂN ĐẠI PHÁP,1.44,5,7,46,0.53,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6722
-2026-03,7464,QN22P0738 HỒ THỊ TRÀ MY,1.44,7,9,56,0.56,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7464
-2026-03,7645,QN22P0744 Nguyễn Trần Khánh Vy,1.44,6,7,100,0.61,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7645
-2026-03,9015,NA24P0265 Hoàng Minh Thư,1.4,2,2,33,0.6,0,1.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9015
-2026-03,8047,QT23P0451 NGUYỄN THỊ KHÁNH LY,1.4,8,9,47,0.56,0,1.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8047
-2026-03,8043,QT23P0447 HỒ NGỌC ANH THƯ,1.32,4,5,42,0.56,0,1.32,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8043
-2026-03,7240,HU22P0512 NGUYỄN PHƯỚC BẢO HOÀNG NHẬT HUY,1.3,6,7,36,0.55,0,1.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7240
-2026-03,2710,QN19P0561 CAOTHẢOVY,1.28,2,3,20,0.55,0,1.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2710
-2026-03,9012,NA24P0258 Lê Trần Khánh Phương,1.26,2,2,300,0.75,0,1.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9012
-2026-03,8171,NA23P0208 Lê Thị Thủy,1.24,3,4,138,0.61,0,1.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8171
-2026-03,9056,BD25P0387 Nguyễn Duy Phát,1.23,5,8,51,0.55,0,1.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9056
-2026-03,8585,DN24P0516 HÀ THỊ BÍCH NGỌC,1.23,4,6,92,0.59,0,1.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8585
-2026-03,7229,QT22P0405 LÊ THỊ YẾN NHI,1.23,7,7,62,0.55,0,1.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7229
-2026-03,9408,PASL25ANH Anh Nguyen,1.22,5,7,62,0.56,0,1.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9408
-2026-03,8382,QN23S0008 Tran Thi My Tam,1.21,6,7,74,0.59,0,1.21,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8382
-2026-03,2683,QG19P0473 NGUYỄN THỊ HUYỀN DIỆU,1.2,5,6,70,0.67,0,1.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2683
-2026-03,8952,DT24P0807 Phan Thị Như Ý,1.19,6,7,60,0.56,0,1.19,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8952
-2026-03,5224,HU20P0388 TRẦN TRUNG HIẾU,1.17,3,3,8,0.5,0,1.17,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5224
-2026-03,6241,AD25P0001 Đặng Minh Phương,1.16,4,4,40,0.57,0,1.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6241
-2026-03,8576,QN24P0834 LÊ TẤN GIA BẢO,1.15,2,2,47,0.55,0,1.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8576
-2026-03,7186,QB22P0579 TRẦN THỊ THÚY,1.13,3,5,21,0.51,0,1.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7186
-2026-03,9194,QT25P0487 Bùi Thị Sony,1.12,3,4,32,0.55,0,1.12,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9194
-2026-03,57,PALS17HAN Hang Le,1.11,4,5,43,0.53,0,1.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=57
-2026-03,7672,PY22P0024 LÊ THỊ HOÀI THƯƠNG,1.09,3,3,387,0.3,5,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7672
-2026-03,6708,PY21P0002 NGUYỄN THỊ THU THOA,1.08,3,3,160,0.6,1,0.32,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6708
-2026-03,9124,QG25G0690 Nguyễn Ngọc Trâm,1.08,3,3,42,0.55,0,1.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9124
-2026-03,9184,QN25P0873 Trần Hà Ngọc Trinh,1.08,4,4,133,0.66,0,1.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9184
-2026-03,7683,QT22P0421 TRẦN NGUYỄN PHƯƠNG NGUYÊN,1.08,5,6,84,0.58,0,1.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7683
-2026-03,9376,David J FORD,1.06,6,6,93,0.57,0,1.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9376
-2026-03,2593,QB19P0403 VÕ NHƯ QUỲNH,1.06,2,3,8,0.53,0,1.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2593
-2026-03,42,PALS16LOA Loan Luong,1.05,2,3,62,0.6,0,1.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=42
-2026-03,5447,BD20P0280 LÊ VÕ NGÂN HÀ,1.02,4,4,24,0.55,0,1.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5447
-2026-03,5105,QB20P0486 NGUYỄN THỊ NGỌC HUYỀN,1.02,4,4,120,0.64,0,1.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5105
-2026-03,3666,QG19P0514 Bùi Thị Lợi Khá,1.02,6,7,107,0.54,0,1.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3666
-2026-03,9079,DN25P0542 Nguyễn Thị Ngân Hà,1.01,5,6,40,0.55,0,1.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9079
-2026-03,8562,QN24P0820 MAI LÊ HOÀNG THƯƠNG,1.01,3,3,66,0.6,0,1.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8562
-2026-03,7331,DN22P0472 VŨ THỊ MAI HƯƠNG,1.0,5,5,30,0.54,0,1.0,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7331
-2026-03,8641,QG24P0670 ĐỖ NGỌC BÌNH AN,1.0,1,2,35,0.57,1,0.37,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8641
-2026-03,8067,DN23P0483 NGUYỄN VĂN MINH KHÔI,0.99,2,3,40,0.55,0,0.99,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8067
-2026-03,8384,QT23S0001 Trinh Trung Nguyen,0.96,4,4,12,0.55,0,0.96,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8384
-2026-03,8397,DT23P0688 Trần Lê Thanh Nhã,0.95,2,2,19,0.55,0,0.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8397
-2026-03,7295,QG22P0602 HỒ THỊ KIỀU,0.95,4,5,37,0.55,0,0.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7295
-2026-03,1336,QN18P0371 PHAN THÁI NHƯ NGỌC,0.95,2,3,22,0.55,0,0.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1336
-2026-03,1807,DN19P0336 Nguyễn Hồ Kim Xuyến,0.94,1,1,80,0.7,0,0.94,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1807
-2026-03,8132,HU23P0538 PHẠM VIẾT THẮNG,0.93,1,2,38,0.55,0,0.93,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8132
-2026-03,8598,HU24P0564 NGUYỄN THỊ NHƯ THẢO,0.91,3,3,38,0.62,0,0.91,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8598
-2026-03,8566,QN24P0824 LƯƠNG NGUYÊN THỊNH,0.9,3,3,38,0.48,1,0.67,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8566
-2026-03,9073,DN25P0536 Văn Hoàng Viễn,0.88,1,1,55,0.4,1,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9073
-2026-03,9326,QB25G0637 LÊ THỊ YẾN NHI,0.86,2,3,55,0.65,0,0.86,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9326
-2026-03,8625,QB24P0622 NGUYỄN THỊ NHƯ QUỲNH,0.85,3,5,53,0.57,0,0.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8625
-2026-03,3580,QG19P0445 Đặng Lê Thanh Huyền,0.85,5,5,36,0.55,0,0.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3580
-2026-03,9180,QN25P0869 Trần Thị Huyền Trang,0.85,1,1,42,0.8,0,0.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9180
-2026-03,9035,TG14P0134 Trần Quỳnh Như,0.84,4,4,79,0.59,0,0.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9035
-2026-03,9422,Jamie Tancinco,0.81,5,5,30,0.55,0,0.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9422
-2026-03,6437,QT21P0343 LÊ THỊ THẢO NHI,0.81,3,3,211,0.68,0,0.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6437
-2026-03,5604,QN20U0630 Phạm Thị Phương Thanh,0.8,3,3,9,0.5,0,0.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5604
-2026-03,8097,BD23P0355 HUỲNH THỊ BẢO NGỌC,0.79,3,4,33,0.55,0,0.79,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8097
-2026-03,3660,QB19P0419 DƯƠNG  THỊ ÁNH  THƯ,0.78,3,3,10,0.52,0,0.78,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3660
-2026-03,9046,BD25G0402 Nguyễn Thanh Thảo,0.77,5,5,33,0.55,0,0.77,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9046
-2026-03,5203,HU20P0367 Đỗ Phan Thuỵ Thuỳ Nhung,0.76,2,2,77,0.6,0,0.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5203
-2026-03,8577,QN24P0835 HOÀNG THU HỒNG,0.76,3,4,31,0.55,0,0.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8577
-2026-03,5160,QT20P0289 NGUYỄN THỊ THÙY DUYÊN,0.75,3,3,21,0.55,0,0.75,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5160
-2026-03,7949,QN23P0755 BÙI NGỌC DIỆP,0.74,4,5,49,0.6,0,0.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7949
-2026-03,55,PALS17NHA Nhan Le,0.73,4,4,69,0.59,0,0.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=55
-2026-03,8110,PY23P0031 HỒ LÊ BẢO TRÂN,0.72,3,4,30,0.55,0,0.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8110
-2026-03,3500,QN19P0525 Nguyễn Quang Minh,0.69,2,2,49,0.48,1,0.13,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3500
-2026-03,7265,QN22P0718 LÂM THỊ KIM ANH,0.68,4,4,26,0.55,0,0.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7265
-2026-03,7846,DT22P0726 Lê Thị Kim Đồng,0.66,3,3,74,0.58,0,0.66,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7846
-2026-03,8033,QT23P0437 PHẠM NHƯ NHẬT QUỐC,0.65,3,3,24,0.57,0,0.65,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8033
-2026-03,8190,NA23P0228 Hồ Thị Huyền Trang,0.64,1,2,92,0.75,0,0.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8190
-2026-03,8475,NA23P0238 Trần Thị Hà Vy,0.64,3,5,49,0.56,0,0.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8475
-2026-03,7175,PY23P0041 VÕ LÊ MINH TRÍ,0.64,1,1,226,0.25,2,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7175
-2026-03,8076,DN23P0492 NGUYỄN THỊ NY,0.63,6,7,38,0.55,0,0.63,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8076
-2026-03,9146,QN25G0897 Lê Hoàng Dũng,0.63,2,2,52,0.57,0,0.63,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9146
-2026-03,8863,Linh Erickson,0.62,3,3,18,0.55,0,0.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8863
-2026-03,236,QB18P0380 PHAN VIẾT TOÀN,0.62,2,2,62,0.68,0,0.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=236
-2026-03,2030,QT19U0264 Lê Hữu Hưng,0.62,1,1,24,0.6,0,0.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2030
-2026-03,9229,NA24P0261 Nguyễn Thị Thùy Trâm,0.61,4,5,26,0.54,0,0.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9229
-2026-03,3485,QB19P0427 Võ Thị Hoài Phương,0.61,4,4,28,0.55,0,0.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3485
-2026-03,7284,QG22P0591 PHAN MINH HIỀN,0.61,3,3,23,0.55,0,0.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7284
-2026-03,6278,BD21P0298 ĐẶNG NGUYỄN ANH TUẤN,0.6,1,1,13,0.55,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6278
-2026-03,8074,DN23P0490 NGUYỄN HỒNG HUYỀN TRÂN,0.6,4,4,27,0.55,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8074
-2026-03,7934,QB23P0604 NGUYỄN TRÀ GIANG,0.6,4,4,25,0.56,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7934
-2026-03,8516,TEAMA20 Duy Nguyen,0.6,1,2,46,0.53,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8516
-2026-03,7315,PY22P0014 NGUYỄN THANH TÚ,0.59,2,2,180,0.77,0,0.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7315
-2026-03,7930,QB23P0600 LÊ TRẦN THANH NGÂN,0.59,2,2,17,0.55,0,0.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7930
-2026-03,481,QG18P0402 NGUYỄN NHƯ THUẬT,0.59,1,2,11,0.55,0,0.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=481
-2026-03,8861,Minh Hong Nguyen,0.58,4,4,37,0.56,0,0.58,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8861
-2026-03,2569,HU19P0340 TRẦNTHỊ KIMMỸ,0.57,3,3,23,0.57,0,0.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2569
-2026-03,8170,NA23P0207 Bùi Quỳnh Như,0.57,2,2,20,0.55,0,0.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8170
-2026-03,9188,QT25G0494 Phạm Hoàng Phúc An,0.57,2,2,13,0.53,0,0.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9188
-2026-03,9438,Janine Marie O'Rourke,0.56,4,4,45,0.59,0,0.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9438
-2026-03,7304,BD22P0335 DƯƠNG TƯỜNG NHI,0.55,7,8,52,0.57,0,0.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7304
-2026-03,9121,QG25G0687 Nguyễn Võ Như Quỳnh,0.53,3,3,37,0.55,0,0.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9121
-2026-03,8388,QT23S0003 Le Nguyen Ngoc Linh,0.53,4,5,92,0.71,0,0.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8388
-2026-03,9118,QG25G0683 Võ Thị Quỳnh Như,0.52,2,2,13,0.55,0,0.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9118
-2026-03,8375,QG23S0003 Vo Ngoc Bich Tram,0.51,2,2,7,0.55,0,0.51,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8375
-2026-03,1347,QN18P0382 Nguyễn Quang Sáng,0.5,1,1,12,0.55,0,0.5,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1347
-2026-03,8744,BD24P0379 PHẠM THỊ TRÀ GIANG,0.48,1,2,72,0.72,0,0.48,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8744
-2026-03,8967,DT24P0822 Đinh Thị Yến Vy,0.47,2,2,65,0.62,0,0.47,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8967
-2026-03,9131,QG25P0678 Đỗ Đặng Kiều Vy,0.46,2,3,32,0.57,0,0.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9131
-2026-03,5659,QN20P0639 PHẠM VÕ ĐỨC,0.46,3,3,22,0.57,0,0.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5659
-2026-03,5445,BD20P0278 TRƯƠNG ANH TUẤN,0.45,2,2,8,0.55,0,0.45,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5445
-2026-03,8127,HU23P0533 NGUYỄN MINH THI,0.43,3,3,27,0.55,0,0.43,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8127
-2026-03,7260,QN22P0713 ĐOÀN THỊ THẢO LY,0.43,2,2,8,0.55,0,0.43,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7260
-2026-03,7275,QN22P0728 NGUYỄN MAI VY,0.43,2,2,28,0.4,2,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7275
-2026-03,8499,AG23P1182 Tô Nguyễn Huỳnh Như,0.42,1,1,31,0.7,0,0.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8499
-2026-03,8532,BD24P0375 NGUYỄN PHẠM QUỲNH ANH,0.42,1,1,7,0.55,0,0.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8532
-2026-03,8021,QG23P0655 TRẦN VÕ THẢO VY,0.42,3,4,75,0.56,0,0.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8021
-2026-03,5338,QN20P0623 NGUYỄN THỊ NGHĨA,0.41,2,2,14,0.55,0,0.41,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5338
-2026-03,816,DN18P0248 NGUYỄN THỊ THANH MAI,0.4,2,2,26,0.55,0,0.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=816
-2026-03,3587,QN19P0557 NGUYỄN THỊ THU TRÂM,0.4,2,2,12,0.55,0,0.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3587
-2026-03,9083,DN25P0546 Lê Huỳnh Trúc Ngân,0.38,2,2,41,0.55,0,0.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9083
-2026-03,8643,HU24P0575 NGUYỄN THỊ CẨM TÚ,0.38,2,3,90,0.58,0,0.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8643
-2026-03,8101,BD23P0359 NGUYỄN MAI NHƯ NGỌC,0.37,2,2,18,0.55,0,0.37,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8101
-2026-03,9082,DN25P0545 Nguyễn Ngọc Diệp,0.37,1,1,21,0.55,0,0.37,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9082
-2026-03,8027,QT23P0431 LÊ THỊ MỸ HẠNH,0.37,1,1,57,0.35,1,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8027
-2026-03,8385,QT23S0002 Doan Thi Thu Trang,0.37,1,1,20,0.35,1,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8385
-2026-03,9158,QN25P0847 Trương Thị Quỳnh Thi,0.36,1,1,22,0.85,0,0.36,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9158
-2026-03,9197,QT25P0490 Nguyễn Ngọc Bảo Trân,0.36,2,2,20,0.55,0,0.36,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9197
-2026-03,7900,AG22P1146 Nguyễn Thị Thanh Trúc,0.35,1,1,9,0.6,0,0.35,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7900
-2026-03,8128,HU23P0534 LÊ THỊ THANH NHÀN,0.35,3,4,35,0.55,0,0.35,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8128
-2026-03,1593,HU18P0225 LÊ CÔNG KHANH,0.34,1,1,3,0.55,0,0.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1593
-2026-03,551,QG17P0122 BÙI THỊ MỸ NƯƠNG,0.34,1,1,3,0.5,0,0.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=551
-2026-03,6724,QN21P0692 TRƯƠNG THỊ PHƯƠNG MAI,0.34,1,1,13,0.55,0,0.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6724
-2026-03,6718,QG21P0587 VÕ THỊ SAN SAN,0.33,1,1,7,0.55,0,0.33,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6718
-2026-03,2676,QG19P0464 NGUYỄNTHỊ ÁNHNGỌC,0.31,1,1,6,0.55,0,0.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2676
-2026-03,5368,QG20P0542 TRƯƠNG THỊ NHƯ Ý,0.31,2,2,13,0.55,0,0.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5368
-2026-03,8115,PY23P0036 ĐÀO LÊ MINH HOÀNG,0.3,2,2,9,0.53,0,0.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8115
-2026-03,6733,QN21P0691 TRƯƠNG THÀNH DANH,0.3,1,1,13,0.55,0,0.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6733
-2026-03,8548,QN24P0806 HỒ QUỐC HUY,0.3,3,3,15,0.55,0,0.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8548
-2026-03,8203,AG22P1171 Võ Mỹ Duyên,0.28,1,1,7,0.55,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8203
-2026-03,8108,BD23P0366 HÀ YẾN VY,0.28,2,3,20,0.53,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8108
-2026-03,484,QG18P0362 NGUYỄN THỊ TRANG,0.28,1,1,9,0.5,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=484
-2026-03,3590,QN19P0549 TRẦN THỊ ANH TRÚC,0.28,1,1,11,0.55,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3590
-2026-03,7209,QT22P0385 ĐẶNG THỊ THÙY MY,0.28,2,2,17,0.57,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7209
-2026-03,8541,QG24P0665 LÊ NGUYỄN HẠNH NHẤT,0.27,1,1,5,0.55,0,0.27,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8541
-2026-03,7981,QN23P0787 PHẠM THỊ MỸ LINH,0.27,1,1,16,0.6,0,0.27,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7981
-2026-03,8623,QT24P0483 LÊ NGỌC KIỀU DIỄM,0.26,2,2,16,0.57,0,0.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8623
-2026-03,8369,QN23S0001 Nguyen Trong Hoa,0.25,2,2,31,0.65,0,0.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8369
-2026-03,7656,QN24P0816 Đinh Thị Lan Anh,0.25,1,1,14,0.6,0,0.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7656
-2026-03,8950,DT24P0805 Trần Thị Tường Vy,0.23,1,1,2,0.5,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8950
-2026-03,8507,Miki Thi Bowler,0.23,4,4,42,0.56,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8507
-2026-03,5397,NA20P0177 HOÀNG VĂN TRUNG,0.23,2,2,38,0.6,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5397
-2026-03,9117,QG25G0682 Phạm Thị Mỹ Châu,0.23,1,1,11,0.55,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9117
-2026-03,7976,QN23P0782 LÊ NGUYỄN PHƯƠNG TRINH,0.23,1,1,30,0.65,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7976
-2026-03,3922,BD19P0204 NGUYỄN THỊ THÙY TRANG,0.22,1,1,13,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3922
-2026-03,7320,DN22P0461 NGUYỄN MỸ KỲ DUYÊN,0.22,1,1,11,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7320
-2026-03,8401,DT23P0744 Đỗ Kim Đầm,0.22,1,1,21,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8401
-2026-03,8502,JP24P0004 Nguyễn Thị Tâm,0.22,3,3,25,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8502
-2026-03,8591,DN24P0522 NGUYỄN THIÊN PHƯỚC,0.21,1,1,6,0.55,0,0.21,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8591
-2026-03,8538,QG24P0662 BÙI VĂN TÍN,0.21,1,1,59,0.25,2,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8538
-2026-03,3921,BD19P0205 NGUYỄN NGÔ TÂY,0.2,1,1,38,0.5,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3921
-2026-03,8422,DT23P0763 Ngô Lê Như Ngọc,0.2,3,3,19,0.55,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8422
-2026-03,6736,QN21P0699 ĐẶNG THỊ KIỀU ANH,0.2,1,1,19,0.55,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6736
-2026-03,5143,QT20P0272 NGUYỄN THỊ HƯỜNG,0.2,1,1,9,0.55,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5143
-2026-03,8123,HU23P0529 TRẦN HUỲNH VÂN ANH,0.19,1,1,9,0.55,0,0.19,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8123
-2026-03,8098,BD23P0356 NGUYỄN TRÀ MY,0.18,1,1,11,0.55,0,0.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8098
-2026-03,5190,QT20P0319 NGUYỄN THỊ HOÀI THƯƠNG,0.18,1,1,7,0.55,0,0.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5190
-2026-03,7589,Student 01,0.18,1,1,5,0.55,0,0.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7589
-2026-03,6359,QB21P0551 LÊ QUANG THUẬN,0.17,1,1,24,0.6,0,0.17,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6359
-2026-03,8575,QN24P0833 HUỲNH THỊ BÌNH MINH,0.17,2,2,44,0.65,0,0.17,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8575
-2026-03,176,AG15P0734 Lê Ngọc Như,0.16,2,2,26,0.57,0,0.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=176
-2026-03,8137,HU23P0543 TRẦN HẢI NGỌC TRÂN,0.16,1,1,19,0.85,0,0.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8137
-2026-03,9091,HU25P0578 Tràn Đỗ Vân Anh,0.15,1,1,6,0.55,0,0.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9091
-2026-03,7956,QN23P0762 PHAN TỀ BÍCH LY,0.15,1,1,41,0.65,0,0.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7956
-2026-03,9409,Thanh Loc Do,0.14,2,2,27,0.57,0,0.14,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9409
-2026-03,9386,Anselle C.,0.13,1,1,14,0.55,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9386
-2026-03,8125,HU23P0531 NGUYỄN PHƯƠNG ANH,0.13,1,1,4,0.5,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8125
-2026-03,9013,NA24P0259 Nguyễn Thị Thùy Trang,0.13,1,1,11,0.55,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9013
-2026-03,9178,QN25P0867 Nguyễn Huỳnh Như Ý,0.13,1,2,71,0.5,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9178
-2026-03,8557,QN24P0815 NGUYỄN THỊ THU YÊN,0.12,1,1,20,0.55,0,0.12,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8557
-2026-03,1545,QT18P0085 HOÀNG TẤN PHÚ QUỐC,0.12,1,1,11,0.55,0,0.12,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1545
-2026-03,7897,AG22P1143 Lý Nguyễn Mai Xuân,0.11,2,2,31,0.55,0,0.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7897
-2026-03,9433,QT25G0500 Pham Thi Hoa Ly,0.11,1,2,21,0.6,0,0.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9433
-2026-03,8473,NA23P0236 Vương Thị Hòa,0.1,1,2,6,0.55,0,0.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8473
-2026-03,300,QT18P0088 NGUYỄN THỊ MINH HIỆP,0.1,1,1,9,0.55,0,0.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=300
-2026-03,5184,QT20P0313 NGUYỄN ĐỨC NHÂN,0.1,1,1,8,0.5,0,0.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5184
-2026-03,8582,DN24P0513 NGÔ VŨ KIỀU ANH,0.09,1,1,10,0.65,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8582
-2026-03,8965,DT24P0820 Nguyễn Ngọc Thiên Ý,0.09,1,1,2,0.5,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8965
-2026-03,9110,QB25P0633 Lê Phương Thảo,0.09,1,1,5,0.55,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9110
-2026-03,6401,QN21P0676 LÊ THỊ YẾN QUỲNH,0.09,1,1,13,0.6,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6401
-2026-03,5149,QT20P0278 PHẠM THỊ KIỀU MY,0.09,1,1,11,0.6,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5149
-2026-03,5450,BD20P0283 TRẦN BẢO NGUYÊN,0.08,1,1,8,0.5,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5450
-2026-03,8531,BD24P0374 ĐẶNG THỊ THÚY HẰNG,0.08,1,1,9,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8531
-2026-03,5647,DN20P0415 Đỗ Thị Minh Nguyệt,0.08,1,1,7,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5647
-2026-03,6506,HU21P0488 LÊ PHẠM KHÁNH NGÂN,0.08,1,1,19,0.7,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6506
-2026-03,8383,QB23S0016 Truong My Hoa,0.08,1,1,6,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8383
-2026-03,906,QG18P0423 VÕ DUY GIA HÂN,0.08,1,1,2,0.5,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=906
-2026-03,3579,QG19P0517 Lê Tấn Sinh,0.08,1,1,6,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3579
-2026-03,5313,QN20P0598 LƯƠNG THỊ PHƯƠNG THẢO,0.08,1,1,17,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5313
-2026-03,8029,QT23P0433 NGUYỄN HỒ ÁI QUỲNH,0.08,1,1,28,0.6,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8029
-2026-03,9014,NA24P0260 Đinh Thị Yến,0.07,1,1,14,0.65,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9014
-2026-03,9444,Pam Mandarino,0.07,1,1,19,0.6,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9444
-2026-03,9116,QG25G0681 Võ Nguyễn Bảo Châu,0.07,1,1,8,0.55,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9116
-2026-03,7960,QN23P0766 TRẦN HỮU QUỐC TRUNG,0.07,1,1,27,0.6,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7960
-2026-03,8620,QT24P0480 PHẠM THÙY LINH,0.07,1,1,5,0.55,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8620
-2026-03,9055,BD25P0386 Nguyễn Đức Trường Thiên,0.06,1,1,9,0.65,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9055
-2026-03,9078,DN25P0541 Nguyễn Phúc Huy,0.06,1,1,4,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9078
-2026-03,6705,NA21P0201 NGUYỄN THỊ YẾN NHI,0.06,1,1,7,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6705
-2026-03,9451,Noah Pharoah,0.06,1,1,10,0.55,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9451
-2026-03,717,QB18P0312 LÊ THỊ BẢO NGỌC,0.06,1,1,7,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=717
-2026-03,2684,QG19P0474 NGUYỄNLÊ KIỀUDIỄM,0.06,1,1,6,0.55,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2684
-2026-03,6715,QG21P0578 NGUYỄN HOÀNG THANH THẢO,0.06,1,1,11,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6715
-2026-03,8141,HU23P0547 TRẦN ĐỖ NHƯ QUỲNH,0.05,1,1,6,0.55,0,0.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8141
-2026-03,8642,QN24P0837 NGUYỄN VIỆT THIÊN KIỀU,0.05,1,1,6,0.55,0,0.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8642
-2026-03,7469,QT22P0413 LÊ HOÀNG THÙY TRANG,0.05,1,1,10,0.6,0,0.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7469
+﻿Month,User ID,PALS_ID,Fullname,Total Hours,Days Active,Sessions,Events,Avg Confidence,Anomaly Count,Clean Hours,Status,Excluded Sessions,Log URL
+2026-03,7232,QT22P0408,LÊ NGUYỄN THÙY DUNG,86.13,26,53,19658,0.22,94,2.65,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7232
+2026-03,4144,BD19P0251,Mai Bá Khánh Trình,69.28,26,43,22644,0.15,81,0.07,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4144
+2026-03,7280,QN22P0733,TRẦN NGUYỄN MINH DƯƠNG,65.66,16,25,23674,0.12,50,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7280
+2026-03,8054,QT23P0458,TRẦN NGỌC HOÀI PHƯƠNG,53.59,17,25,3326,0.37,32,2.06,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8054
+2026-03,8374,QG23S0002,Pham Truong Anh Huy,46.38,19,37,465,0.56,0,46.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8374
+2026-03,8951,DT24P0806,Đỗ Anh Thư,45.15,31,55,737,0.55,0,45.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8951
+2026-03,431,QN17P0279,TRẦN CHÍNH ĐẠT,44.33,7,13,303,0.4,12,0.56,HAS ANOMALIES,3,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=431
+2026-03,8571,QN24P0829,NGUYỄN TRẦN DIỄM LY,44.27,17,26,1037,0.54,3,36.31,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8571
+2026-03,8173,NA23P0210,Phạm Thị Vân Anh,43.67,21,62,1172,0.6,7,36.39,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8173
+2026-03,8622,QT24P0482,TRẦN THỊ THỦY TIÊN,43.13,6,18,15379,0.18,34,0.23,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8622
+2026-03,8172,NA23P0209,Hoàng Thị Linh,42.35,21,43,1929,0.69,7,32.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8172
+2026-03,7214,QT22P0390,LÊ QUANG HUY,40.71,10,11,1281,0.46,9,4.05,HAS ANOMALIES,8,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7214
+2026-03,8399,DT23P0742,Đỗ Thị Trâm Anh,37.73,24,39,313,0.53,1,35.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8399
+2026-03,8113,PY23P0034,LÊ TƯỜNG VY,37.25,14,19,7108,0.41,18,0.21,HAS ANOMALIES,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8113
+2026-03,9179,QN25P0868,Nguyễn Tô Nhi Phương,36.87,28,93,768,0.55,1,36.2,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9179
+2026-03,8662,AG23P1184,Nguyễn Lương Khánh,36.52,12,34,1221,0.57,4,31.89,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8662
+2026-03,7290,QG22P0597,NGUYỄN HUY HOÀNG,36.17,10,13,5689,0.43,11,0.24,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7290
+2026-03,7471,QT22P0415,HOÀNG PHÚC THỊNH,36.15,9,12,3886,0.54,6,27.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7471
+2026-03,8572,QN24P0830,LÊ VĂN VĨNH KHANG,36.08,12,16,9077,0.19,31,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8572
+2026-03,8111,PY23P0032,NGUYỄN THỊ TƯỜNG VY,35.85,26,43,4538,0.43,32,4.41,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8111
+2026-03,321,HU18P0248,VÕ THỊ HÀ TIÊN,35.43,11,12,1081,0.42,11,2.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=321
+2026-03,8617,QT24P0477,VÕ ANH KHÔI,35.06,11,11,6679,0.35,11,0.0,REVIEW REQUIRED,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8617
+2026-03,8526,BD24P0369,NGUYỄN THỊ THANH TIỀN,35.02,15,53,2975,0.77,1,34.77,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8526
+2026-03,8084,DN23P0500,PHAN QUANG HÀ,28.35,8,9,5860,0.37,10,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8084
+2026-03,7993,QG23P0627,HỒ NGỌC NHƯ QUỲNH,27.14,13,18,1708,0.32,23,0.45,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7993
+2026-03,7212,QT22P0388,TRẦN BÁ HẢI SƠN,26.8,15,20,7034,0.32,25,0.94,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7212
+2026-03,8030,QT23P0434,TRỊNH NGỌC LÂN,25.74,17,20,9979,0.25,36,0.25,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8030
+2026-03,9017,NA24P0267,Nguyễn Hà Anh,25.46,23,53,325,0.54,0,25.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9017
+2026-03,8012,QG23P0646,TRƯƠNG HOÀNG HOÀI THƯƠNG,25.3,8,13,8376,0.31,19,0.99,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8012
+2026-03,8606,HU24P0572,NGUYỄN NGỌC GIA HƯNG,25.08,11,17,687,0.52,5,15.11,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8606
+2026-03,7301,BD22P0332,MAI NGUYÊN HOÀI ĐỨC,24.89,6,8,6295,0.19,16,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7301
+2026-03,4332,QB19P0442,NGUYỄN THỊ HUYỀN,24.68,17,36,541,0.55,1,23.18,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4332
+2026-03,8038,QT23P0442,LÊ THỊ THẢO VY,23.46,15,18,1531,0.58,3,20.71,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8038
+2026-03,4372,QB19P0456,LÊ THỊ THANH HIẾU,23.37,12,50,505,0.52,12,11.24,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4372
+2026-03,8139,HU23P0545,HỒ ĐẮC THÁI BẢO,23.3,7,10,184,0.52,2,10.39,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8139
+2026-03,7937,QB23P0607,NGUYỄN THANH TÂM,22.98,13,25,1050,0.43,19,4.77,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7937
+2026-03,7263,QN22P0716,NGUYỄN TẤN LÀO,22.89,9,10,8210,0.13,20,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7263
+2026-03,8009,QG23P0643,NGUYỄN HỒNG LONG,22.06,11,14,448,0.53,2,15.74,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8009
+2026-03,8037,QT23P0441,TRẦN HỒNG PHI LONG,21.73,10,18,4888,0.33,24,1.34,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8037
+2026-03,8079,DN23P0495,ĐẶNG TÂM AN,20.76,10,12,395,0.44,6,9.82,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8079
+2026-03,9189,QT25G0495,Lê Tiến Đạt,20.36,8,19,107,0.5,2,14.04,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9189
+2026-03,8447,DT23P0787,Phạm Ái Vy,19.95,29,34,390,0.6,0,19.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8447
+2026-03,7946,QB23P0616,NGUYỄN NGỌC QUỲNH HƯƠNG,19.35,10,27,573,0.55,0,19.35,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7946
+2026-03,9449,DN25U0004,Nguyễn Nữ Trà Giang,19.27,20,50,1939,0.65,10,17.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9449
+2026-03,8555,QN24P0813,NGUYỄN NGỌC THIÊN AN,19.15,9,36,1066,0.63,1,18.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8555
+2026-03,5187,QT20P0316,NGUYỄN THỊ THANH HOÀI,19.06,17,33,1857,0.67,0,19.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5187
+2026-03,8534,BD24P0377,NGUYỄN PHƯƠNG ANH,18.65,15,22,4339,0.74,2,17.01,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8534
+2026-03,2667,QG19P0444,Nguyễn Đức Mạnh,18.34,17,55,282,0.56,0,18.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2667
+2026-03,9447,DT25U0002,Mai Thị Ánh Tuyết,18.16,9,30,509,0.56,4,16.33,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9447
+2026-03,8938,SG24U0006,Ngô Nhật Xuân,18.16,13,43,593,0.55,5,13.76,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8938
+2026-03,669,NA17P0078,Nguyễn Thị Thương,18.01,6,16,708,0.58,2,13.21,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=669
+2026-03,5258,HU20P0422,PHÙNG CHÂU ĐAN VI,17.8,10,25,206,0.51,3,14.14,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5258
+2026-03,8470,NA23P0233,Hoàng Thị Xuân Mai,17.74,20,31,3383,0.69,0,17.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8470
+2026-03,8615,QT24P0475,TRỊNH NGÔ ĐỨC NHÂN,16.88,12,16,3032,0.37,14,3.13,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8615
+2026-03,362,HU17P0141,MAI CHÂU CÁT TƯỜNG,16.46,14,23,350,0.57,0,16.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=362
+2026-03,9182,QN25P0871,Đoàn Ngọc Minh Châu,16.42,17,23,537,0.61,0,16.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9182
+2026-03,9058,BD25P0389,Lê My Khánh,16.19,19,24,643,0.56,11,8.46,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9058
+2026-03,8197,AG22P1165,Nguyễn Thị Bích Châm,16.08,18,21,324,0.57,0,16.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8197
+2026-03,7325,DN22P0466,NGUYỄN ĐĂNG QUANG,15.89,5,6,5228,0.14,12,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7325
+2026-03,5146,QT20P0275,LÊ THỊ NGỌC OANH,15.53,20,38,369,0.57,0,15.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5146
+2026-03,8461,BD23U0002,Phan Nguyễn Kiều My,15.44,15,33,328,0.55,1,13.71,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8461
+2026-03,3589,QN19P0548,VÕ THỊ NHẬT HOÀNG,15.27,5,8,1461,0.44,7,1.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3589
+2026-03,8595,DN24P0526,PHẠM QUỐC CƯỜNG,15.26,7,23,265,0.57,0,15.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8595
+2026-03,8747,DN24P0530,NGUYỄN VIẾT BẢO,15.13,15,33,278,0.55,0,15.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8747
+2026-03,5632,BD19P0219,Nguyễn Đình Phát,15.01,14,15,786,0.48,7,5.03,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5632
+2026-03,8178,NA23P0216,Hoàng Thị Lan Quỳnh,14.97,22,30,231,0.5,0,14.97,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8178
+2026-03,7257,QN22P0710,TRẦN ĐĂNG THƯƠNG,14.94,5,11,248,0.51,3,11.23,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7257
+2026-03,8398,DT23P0741,Lê Thị Huỳnh Sen,14.83,22,55,596,0.57,1,14.53,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8398
+2026-03,6710,QB21P0555,VÕ PHƯƠNG THẢO,14.73,18,25,1102,0.7,0,14.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6710
+2026-03,4362,HU19P0350,NGÔ VIẾT BẢO NGUYÊN,14.71,4,9,476,0.48,4,1.8,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4362
+2026-03,7328,DN22P0469,TRẦN PHÙNG KHÁNH NGỌC,14.62,9,11,5122,0.17,20,0.14,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7328
+2026-03,9101,HU25P0588,Đỗ Như Mai,14.6,27,36,534,0.61,0,14.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9101
+2026-03,7625,QG22P0616,Lê Như Huyền,14.58,8,15,229,0.56,0,14.58,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7625
+2026-03,637,NA17P0024,Nguyễn Thị Khánh Đông,14.56,8,11,443,0.43,8,0.54,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=637
+2026-03,6857,HU21P0503,MAI LÊ BÁ HOÀNG,14.47,6,7,570,0.44,6,0.11,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6857
+2026-03,7964,QN23P0770,VÕ THỊ KỲ DUYÊN,14.17,7,8,3777,0.19,16,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7964
+2026-03,8498,DT23P0802,Nguyễn Thị Nhi,13.82,14,14,631,0.55,4,8.43,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8498
+2026-03,8477,NA23P0240,Phạm Quỳnh Trang,13.46,18,28,171,0.54,0,13.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8477
+2026-03,4347,QN19P0516,NGUYỄN HOÀNG NHÂN,13.37,2,5,430,0.5,2,10.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4347
+2026-03,7627,QG22P0618,Đinh Thị Minh Ngọc,13.34,12,22,185,0.56,0,13.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7627
+2026-03,8593,DN24P0524,TRẦN THU NGÂN,13.28,29,41,1167,0.59,11,8.06,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8593
+2026-03,8957,DT24P0812,Dương Như Ý,13.27,10,20,385,0.61,2,11.42,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8957
+2026-03,6455,QT21P0361,Lê Công Nhẫn,13.23,3,5,551,0.59,3,3.84,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6455
+2026-03,9067,DN25G0555,Phan Quỳnh Nhi,13.1,5,17,269,0.56,1,12.23,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9067
+2026-03,8459,NT23U0001,Bùi Thiên An,12.93,12,19,229,0.55,2,11.16,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8459
+2026-03,9190,QT25G0496,Dương Anh Hiếu,12.93,14,27,655,0.57,1,12.88,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9190
+2026-03,8958,DT24P0813,Huỳnh Tường Vy,12.62,12,15,250,0.49,3,9.43,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8958
+2026-03,7941,QB23P0611,PHAN THỊ BẢO NGỌC,12.52,12,20,167,0.54,0,12.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7941
+2026-03,8086,DN23P0502,ĐINH VŨ HÀ THI,12.51,5,12,290,0.56,0,12.51,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8086
+2026-03,8618,QT24P0478,LÊ MINH NHẬT,11.95,6,8,2290,0.42,7,0.17,HAS ANOMALIES,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8618
+2026-03,8011,QG23P0645,HỒ LÂM HUY,11.87,18,35,470,0.56,0,11.87,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8011
+2026-03,9096,HU25P0583,Võ Đức Đồng,11.84,10,18,190,0.58,0,11.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9096
+2026-03,8616,QT24P0476,TRẦN NGUYỄN THU NGUYỆT,11.77,9,22,232,0.58,0,11.77,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8616
+2026-03,8584,DN24P0515,LÊ HOÀNG KHÁNH UYÊN,11.74,7,11,233,0.53,1,11.27,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8584
+2026-03,8169,NA23P0206,Nguyễn Thị Thảo Duyên,11.26,6,21,278,0.51,3,8.53,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8169
+2026-03,7651,BD22P0347,Nguyễn Ngọc Bảo Quốc,11.24,11,18,163,0.54,0,11.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7651
+2026-03,2538,BD19P0166,NGUYỄNTẠ ĐÌNHVIỆT,11.1,9,18,230,0.42,9,2.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2538
+2026-03,8441,DT23P0782,Nguyễn Thị Bão Ngọc,11.01,18,19,189,0.57,0,11.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8441
+2026-03,4949,BD18P0118,TRƯƠNG THỊ BÍCH TRÂM,10.92,14,23,325,0.55,0,10.92,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=4949
+2026-03,406,QN17P0230,NGUYỄN THỊ TƯỜNG VI,10.88,5,5,328,0.41,4,0.68,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=406
+2026-03,1805,QG19P0440,Nguyễn Thị Bích Thuận,10.73,5,6,77,0.53,0,10.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1805
+2026-03,8640,BD24P0378,VÕ THÀNH TÍN,10.72,11,20,514,0.66,0,10.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8640
+2026-03,7299,QG22P0606,NGUYỄN HỮU TÌNH,10.71,16,36,617,0.62,7,9.6,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7299
+2026-03,3637,QN19P0552,NGUYỄN TRÚC LAM,10.71,3,8,600,0.43,7,3.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3637
+2026-03,8059,QT23P0463,NGUYỄN THỊ THANH VÂN,10.61,12,24,405,0.58,0,10.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8059
+2026-03,5130,QB20P0511,LÊ THỊ THẢO NHI,10.55,12,20,311,0.61,0,10.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5130
+2026-03,8631,QB24P0628,NGUYỄN THỊ THẢO VY,10.53,7,23,554,0.6,3,8.24,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8631
+2026-03,9065,DN25G0552,Nguyễn Nam Hãn,10.44,12,18,265,0.54,2,7.81,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9065
+2026-03,8527,BD24P0370,KHỔNG PHAN NHẬT MY,9.93,5,7,5677,0.23,13,2.01,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8527
+2026-03,8457,DT23P0796,Nguyễn Thị Mỹ Duyên,9.93,9,37,304,0.54,3,7.02,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8457
+2026-03,7281,QN22P0734,TRẦN TRUNG ĐỨC,9.86,3,3,1430,0.5,2,4.47,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7281
+2026-03,8131,HU23P0537,LÊ NGUYỄN THANH TÂM,9.79,6,10,2664,0.41,10,0.84,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8131
+2026-03,8960,DT24P0815,Võ Thị Thùy Dương,9.63,12,16,176,0.49,1,8.62,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8960
+2026-03,6420,QG21P0573,HUỲNH NGUYỄN THÙY LY,9.61,2,5,2583,0.24,11,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6420
+2026-03,9102,HU25P0589,Nguyễn Lê Gia Khánh,9.54,18,19,1620,0.7,2,8.29,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9102
+2026-03,8448,DT23P0788,Lê Nhật Vy,9.52,12,22,1031,0.66,0,9.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8448
+2026-03,9059,BD25P0390,Bùi Nguyễn Như Ý,9.5,12,23,298,0.54,2,7.18,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9059
+2026-03,8471,NA23P0234,Hoàng Thị Thanh Thảo,9.42,13,17,1294,0.73,1,8.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8471
+2026-03,9448,GL25U0003,Nguyễn Phước An,9.41,15,30,1330,0.62,2,7.19,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9448
+2026-03,9106,PY25P0045,Lê Thị Thùy Dung,9.38,10,20,406,0.58,3,6.61,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9106
+2026-03,8035,QT23P0439,LÊ NHẬT HẠ,9.3,11,15,2682,0.49,8,2.08,HAS ANOMALIES,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8035
+2026-03,8186,NA23P0224,Nguyễn Thùy Linh,9.22,10,18,211,0.56,0,9.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8186
+2026-03,9177,QN25P0866,Trần Văn Ngọc Thiên,9.03,13,14,157,0.55,0,9.03,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9177
+2026-03,6702,BD21P0323,TRẦN THỊNH PHÁT,8.64,15,21,164,0.55,0,8.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6702
+2026-03,9053,BD25P0384,Đỗ Ngọc Tính,8.5,7,8,170,0.56,0,8.5,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9053
+2026-03,9060,BD25P0391,Nguyễn Phương Thùy,8.3,19,35,376,0.59,0,8.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9060
+2026-03,8026,QT23P0430,Hoàng Trần Bảo Nhi,7.99,9,13,572,0.72,1,7.56,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8026
+2026-03,8380,QN23S0006,Le Xuan Tien,7.82,8,14,416,0.61,0,7.82,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8380
+2026-03,1293,QN18P0422,NGUYỄN VĂN TÀI,7.81,15,20,210,0.55,0,7.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1293
+2026-03,7952,QN23P0758,NGÔ TRẦN BẢO YÊN,7.56,5,10,939,0.69,0,7.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7952
+2026-03,8614,QT24P0474,VÕ THỊ KHÁNH NGUYÊN,7.49,9,14,658,0.68,0,7.49,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8614
+2026-03,9226,NA24P0299,Nguyễn Thị Thu Hằng,7.46,15,23,746,0.61,0,7.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9226
+2026-03,3919,BD19P0218,TRƯƠNG HỒ THÙY TRANG,7.38,7,11,151,0.57,1,7.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3919
+2026-03,8765,BD24P0380,NGUYỄN THỊ THANH VÂN,7.3,11,19,118,0.54,0,7.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8765
+2026-03,9099,HU25P0586,Nguyễn Thanh Nhật Trường,7.21,14,18,186,0.55,0,7.21,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9099
+2026-03,9210,NA24P0281,Nguyễn Diệp Anh,7.18,6,13,337,0.63,1,6.79,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9210
+2026-03,7201,QT22P0377,TRƯƠNG THỊ ANH TÚ,7.1,9,9,133,0.51,0,7.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7201
+2026-03,9054,BD25P0385,Lò Đặng Minh Kỳ,7.01,16,25,266,0.55,0,7.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9054
+2026-03,8445,DT23P0786,Huỳnh Thị Yến Linh,6.97,9,18,74,0.51,0,6.97,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8445
+2026-03,9168,QN25P0857,Lê Thị Thu Hiếu,6.95,7,10,96,0.55,0,6.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9168
+2026-03,7262,QN22P0715,ĐẶNG NGUYỄN PHƯƠNG TRINH,6.92,9,14,57,0.54,0,6.92,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7262
+2026-03,8964,DT24P0819,Lê Thị Cẩm Liên,6.89,10,10,153,0.5,0,6.89,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8964
+2026-03,8020,QG23P0654,NGUYỄN HOÀNG DIỆU LAN,6.88,11,23,126,0.55,0,6.88,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8020
+2026-03,9173,QN25P0862,Hồ Trần Đăng Khôi,6.81,11,13,826,0.73,1,5.75,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9173
+2026-03,8346,QN23P0802,Trương Vỹ Nguyên,6.78,5,7,1341,0.33,9,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8346
+2026-03,8601,HU24P0567,NGUYỄN THỊ MINH KHUÊ,6.68,4,9,740,0.71,0,6.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8601
+2026-03,8405,DT23P0748,Lê Thảo Như,6.51,21,31,730,0.59,9,3.88,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8405
+2026-03,8017,QG23P0651,NGUYỄN VŨ ÁI NGA,6.49,4,17,879,0.75,0,6.49,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8017
+2026-03,7691,DN22P0478,BÙI NGỌC BẢO,6.42,16,18,112,0.55,0,6.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7691
+2026-03,7253,QN22P0706,NGUYỄN PHÚC TOÀN,6.41,2,2,2411,0.38,2,0.1,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7253
+2026-03,8075,DN23P0491,NGUYỄN THỊ PHƯỚC VIÊN,6.31,9,15,274,0.6,0,6.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8075
+2026-03,8956,DT24P0811,Bùi Thị Bích Ngọc,6.29,17,26,137,0.56,0,6.29,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8956
+2026-03,8093,BD23P0351,LÊ PHẠM NGỌC HÂN,6.23,14,23,270,0.56,2,6.14,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8093
+2026-03,8529,BD24P0372,PHẠM HUỲNH THƯ,6.16,17,22,215,0.58,0,6.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8529
+2026-03,6859,HU21P0505,PHAN ĐỖ ANH KHOA,6.13,2,2,271,0.38,2,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6859
+2026-03,9113,QB25P0636,Hoàng Thị Thu Hà,6.07,6,12,281,0.64,0,6.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9113
+2026-03,7300,BD22P0331,HUỲNH VĂN HƯƠNG,6.05,5,7,1672,0.11,14,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7300
+2026-03,7639,QN22P0748,Trần Thị Thùy Vy,5.93,2,2,95,0.48,1,2.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7639
+2026-03,7975,QN23P0781,PHẠM THỊ YẾN NHI,5.81,19,35,322,0.55,0,5.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7975
+2026-03,9170,QN25P0859,Lê Trần Huyền Trân,5.76,9,16,374,0.61,0,5.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9170
+2026-03,8603,HU24P0569,PHAN CÔNG BÔN,5.69,8,16,108,0.55,0,5.69,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8603
+2026-03,5653,DN20P0413,Phạm Thị Kim Ngân,5.67,8,20,728,0.67,0,5.67,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5653
+2026-03,5657,QN20P0637,Nguyễn Thị Ái Trâm,5.65,3,11,92,0.57,0,5.65,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5657
+2026-03,8963,DT24P0818,Trần Thị Ngọc Quý,5.61,13,16,144,0.54,0,5.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8963
+2026-03,7181,QB22P0574,DƯƠNG THỊ THANH TÂM,5.54,4,8,290,0.76,0,5.54,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7181
+2026-03,9187,QN25P0876,Nguyễn Thị Minh Hy,5.5,10,15,266,0.57,1,4.89,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9187
+2026-03,8612,QT24P0472,LÊ MINH TIẾN,5.47,10,11,69,0.55,0,5.47,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8612
+2026-03,9195,QT25P0488,Phạm Hồng Phúc,5.45,11,12,172,0.55,0,5.45,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9195
+2026-03,3928,QG19P0451,NGÔ THỊ TÀI UYÊN,5.32,6,6,184,0.52,1,4.01,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3928
+2026-03,7948,QB23P0618,VÕ NHƯ BẢO NGỌC,5.31,10,17,152,0.54,0,5.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7948
+2026-03,8670,AG23P1192,Võ Thị Yến Linh,5.29,8,17,333,0.58,0,5.29,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8670
+2026-03,6398,QN21P0673,PHAN THỊ HIỀN,5.22,18,20,317,0.56,1,5.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6398
+2026-03,8472,NA23P0235,Hoàng Thị Ngọc Anh,5.21,16,28,514,0.52,13,2.71,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8472
+2026-03,9149,QN25G0900,Đặng Lê Minh Huy,5.16,10,12,177,0.57,0,5.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9149
+2026-03,8099,BD23P0357,NGUYỄN NGUYÊN TƯỜNG VY,5.14,4,4,1278,0.18,8,0.0,REVIEW REQUIRED,1,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8099
+2026-03,8455,DT23P0794,Trần Thị Mỹ Hương,5.09,11,19,354,0.58,3,3.38,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8455
+2026-03,8966,DT24P0821,Trương Thị Diệu Hồng,5.06,10,10,274,0.67,0,5.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8966
+2026-03,8370,QN23S0002,Mai Thi Kim Duyen,4.9,1,5,163,0.46,3,0.47,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8370
+2026-03,9093,HU25P0580,Phan Nguyễn Minh Tùng,4.89,11,12,1097,0.68,0,4.89,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9093
+2026-03,8409,DT23P0751,Huỳnh Thị Như Yến,4.85,7,8,137,0.58,0,4.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8409
+2026-03,9162,QN25P0851,Huỳnh Nguyễn Xuân Mai,4.84,12,14,316,0.63,0,4.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9162
+2026-03,9227,NA24P0300,Nguyễn Ngọc Bảo Oanh,4.73,4,5,1534,0.69,0,4.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9227
+2026-03,7195,QB22P0588,DƯƠNG THỊ HỒNG VÂN,4.72,2,3,285,0.48,1,0.38,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7195
+2026-03,8376,HU23S0001,Pham Quang Thang,4.67,14,35,151,0.53,0,4.67,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8376
+2026-03,6720,QT21P0366,NGUYỄN NHƯ THUẬT,4.65,3,3,162,0.48,1,2.21,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6720
+2026-03,9145,QN25G0896,Nguyễn Thị Thanh Thương,4.64,10,14,315,0.57,1,4.1,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9145
+2026-03,910,QG18P0355,LÊ THỊ TUYẾT MAI,4.42,5,6,157,0.55,0,4.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=910
+2026-03,858,DN18P0285,PHẠM MAI THI,4.4,9,16,81,0.5,0,4.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=858
+2026-03,9016,NA24P0266,Hoàng Thị Khánh Minh,4.39,12,18,167,0.54,0,4.39,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9016
+2026-03,7966,QN23P0772,VÕ HOÀNG LINH PHƯỢNG,4.38,13,18,148,0.54,0,4.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7966
+2026-03,3594,QN19P0523,LÊ THỊ HOÀI LINH,4.34,7,11,80,0.55,0,4.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3594
+2026-03,6734,QN21P0695,NGUYỄN THỊ THẢO NGUYÊN,4.34,5,6,54,0.54,0,4.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6734
+2026-03,7630,QG22P0621,Đỗ Trọng Đạt,4.34,9,20,121,0.55,0,4.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7630
+2026-03,9176,QN25P0865,Trương Quang Nhựt,4.27,7,7,114,0.6,0,4.27,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9176
+2026-03,9018,NA24P0268,Nguyễn Hà Anh,4.22,16,24,602,0.56,14,2.28,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9018
+2026-03,5474,QT19P0230,Nguyễn Quang Huy,4.19,5,9,69,0.54,0,4.19,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5474
+2026-03,7643,QN22P0742,Trần Thị Hoa Viên,4.09,12,16,111,0.55,0,4.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7643
+2026-03,8165,DN23P0508,NGUYỄN HẢI TRÍ,4.04,13,25,409,0.56,2,3.74,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8165
+2026-03,8530,BD24P0373,NGUYỄN THÀNH ĐẠT,4.04,3,6,135,0.62,0,4.04,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8530
+2026-03,8537,QG24P0661,HỒ TẤN SANG,3.99,5,12,117,0.56,0,3.99,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8537
+2026-03,8022,QG23P0656,VÕ AN PHÚC,3.94,6,14,101,0.58,0,3.94,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8022
+2026-03,9011,NA24P0257,Nguyễn Thị Nhung,3.91,5,10,95,0.55,0,3.91,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9011
+2026-03,8069,DN23P0485,HOÀNG ANH THƯ,3.9,9,9,93,0.55,0,3.9,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8069
+2026-03,9129,QG25P0676,Từ Lê Ngọc Trinh,3.88,7,14,164,0.55,0,3.88,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9129
+2026-03,7180,QB22P0573,NGUYỄN NGỌC BẢO LINH,3.86,7,17,121,0.54,0,3.86,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7180
+2026-03,9201,NA24P0295,Phạm Hải Yến,3.83,9,13,337,0.65,0,3.83,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9201
+2026-03,8025,QT23P0429,NGUYỄN VIẾT HỌC,3.8,6,8,301,0.57,0,3.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8025
+2026-03,7989,QN23P0795,LÝ THỊ TRÚC QUỲNH,3.74,3,7,119,0.57,0,3.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7989
+2026-03,8860,QN24P0846,VÕ HOÀNG DUNG,3.73,12,15,220,0.58,0,3.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8860
+2026-03,7286,QG22P0593,TRƯƠNG MỸ ÂN,3.71,9,15,182,0.54,2,2.8,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7286
+2026-03,5219,HU20P0383,NGUYỄN BÍCH CHÂU,3.56,5,8,252,0.68,0,3.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5219
+2026-03,3912,BD19P0203,Phạm Minh Ngân,3.55,11,12,79,0.54,0,3.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3912
+2026-03,8175,NA23P0212,Nguyễn Thị Khánh Linh,3.54,17,20,152,0.55,0,3.54,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8175
+2026-03,3903,DN19P0358,ĐỖ THỊ THANH NGA,3.44,5,10,75,0.55,0,3.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3903
+2026-03,8978,DT24P0833,Trần Thị Ý Ngọc,3.43,6,7,81,0.5,0,3.43,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8978
+2026-03,8085,DN23P0501,HUỲNH PHÚC TẤN,3.32,3,3,624,0.42,3,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8085
+2026-03,9156,QN25G0908,Nguyễn Bảo Tuệ,3.32,11,19,128,0.55,0,3.32,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9156
+2026-03,8386,PY23S0003,Trinh Thi Bich Thao,3.31,5,12,132,0.57,0,3.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8386
+2026-03,8148,HU23P0554,PHẠM NGỌC ANH THƯ,3.29,5,11,115,0.56,0,3.29,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8148
+2026-03,8400,DT23P0743,Trần Thị Mỹ Anh,3.26,13,20,103,0.55,0,3.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8400
+2026-03,7945,QB23P0615,NGUYỄN THỊ MAI LÀNH,3.24,8,13,129,0.57,0,3.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7945
+2026-03,1311,QN18P0438,NGUYỄN THỊ THU SƯƠNG,3.18,7,12,45,0.55,0,3.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1311
+2026-03,8561,QN24P0819,PHẠM THỊ HOÀI MY,3.14,5,11,229,0.62,0,3.14,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8561
+2026-03,7323,DN22P0464,HỒ THỊ Ý NHI,3.1,4,4,851,0.48,2,0.76,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7323
+2026-03,9111,QB25P0634,Đoàn Thị Bảo Ngọc,3.07,2,5,27,0.54,0,3.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9111
+2026-03,6284,BD21P0304,NGUYỄN THỊ PHƯƠNG THẢO,3.06,12,14,39,0.5,0,3.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6284
+2026-03,8055,QT23P0459,TRẦN THỊ HƯƠNG THƠM,3.06,10,13,117,0.55,0,3.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8055
+2026-03,8962,DT24P0817,Trần Bảo Thi,3.06,10,11,76,0.5,0,3.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8962
+2026-03,7679,QN22P0752,TRẦN THỊ DÂNG,3.04,5,9,65,0.56,0,3.04,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7679
+2026-03,7312,PY22P0011,LÊ THỊ HỒNG NHƯ,3.02,6,7,113,0.59,0,3.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7312
+2026-03,8552,QN24P0810,NGUYỄN THỊ ÁI NHI,3.01,6,8,145,0.59,0,3.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8552
+2026-03,8608,HU24P0574,NGUYỄN THANH BÌNH,2.95,4,12,146,0.55,0,2.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8608
+2026-03,8023,QT23P0427,NGUYỄN THỊ MINH THÙY,2.85,9,11,122,0.58,1,2.64,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8023
+2026-03,9165,QN25P0854,Nguyễn Hồng Y Hoài,2.82,6,9,108,0.59,0,2.82,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9165
+2026-03,6691,DN21P0445,TRẦN LÊ NHƯ Ý,2.81,3,6,84,0.56,0,2.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6691
+2026-03,2702,QG19P0497,BÙI NỮ NHẤT,2.8,9,16,306,0.63,4,2.14,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2702
+2026-03,8402,DT23P0745,Lê Ngọc Lụa,2.75,5,8,50,0.54,0,2.75,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8402
+2026-03,8130,HU23P0536,NGUYỄN THỊ NGỌC HUYỀN,2.74,4,8,56,0.54,0,2.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8130
+2026-03,8581,DN24P0512,TRẦN HOÀNG BẢO TRÂM,2.73,4,5,51,0.56,0,2.73,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8581
+2026-03,9095,HU25P0582,Đỗ Bảo Nhi,2.72,6,13,73,0.54,0,2.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9095
+2026-03,9130,QG25P0677,Nguyễn Tuấn Kiệt,2.68,8,13,72,0.54,0,2.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9130
+2026-03,7973,QN23P0779,LÊ HỒ ÁNH NHI,2.66,7,11,124,0.61,0,2.66,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7973
+2026-03,7951,QN23P0757,TRẦN LỆ QUYÊN,2.66,8,10,132,0.54,2,2.12,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7951
+2026-03,8523,PY24P0042,LÊ NGUYỄN QUỲNH TIÊN,2.65,11,16,135,0.55,0,2.65,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8523
+2026-03,7218,QT22P0394,NGUYỄN TẤN ĐỨC,2.64,2,4,33,0.54,0,2.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7218
+2026-03,9010,NA24P0256,Nguyễn Thị Phượng,2.6,7,11,151,0.6,2,1.92,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9010
+2026-03,9132,QN25G0877,Võ Thị Diễm Hằng,2.59,4,12,153,0.64,0,2.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9132
+2026-03,6480,HU21P0462,THÁI NGUYỄN THÙY TRANG,2.58,6,9,54,0.54,0,2.58,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6480
+2026-03,7687,QT22P0425,Phạm Lê Ngọc Hiền,2.56,6,8,71,0.56,0,2.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7687
+2026-03,8179,NA23P0217,Trần Thị Hương Trà,2.56,5,7,149,0.66,0,2.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8179
+2026-03,9103,PY25G0046,Mai Quốc Nam,2.55,4,5,68,0.58,0,2.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9103
+2026-03,8387,BV23S0001,Nguyen Le Thanh Huyen,2.49,8,8,43,0.54,0,2.49,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8387
+2026-03,7305,BD22P0336,NGUYỄN THỊ KIỀU TRINH,2.44,5,5,37,0.55,0,2.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7305
+2026-03,8053,QT23P0457,MAI VĨNH CƯỜNG,2.4,9,11,32,0.5,0,2.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8053
+2026-03,6700,DN21P0442,PHẠM THỊ ANH ĐÀO,2.4,6,9,72,0.54,0,2.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6700
+2026-03,9086,HU25G0591,Phan Nguyễn Bảo Ngọc,2.38,6,6,216,0.66,0,2.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9086
+2026-03,5004,HU19P0320,Nguyễn Văn Minh Duy,2.34,4,5,43,0.56,0,2.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5004
+2026-03,8406,DT23P0749,Nguyễn Thị Ngọc Trân,2.32,8,12,66,0.55,0,2.32,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8406
+2026-03,7468,QT22P0412,NGUYỄN BÁ DŨNG,2.29,2,7,84,0.49,2,1.49,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7468
+2026-03,8560,QN24P0818,LÊ HOÀNG KIỀU NHI,2.25,3,4,62,0.54,0,2.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8560
+2026-03,9196,QT25P0489,Nguyễn Thị Huyền,2.25,2,3,31,0.55,0,2.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9196
+2026-03,3479,HU19P0290,Phạm Thị Trang Uyên,2.25,6,7,38,0.58,0,2.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3479
+2026-03,3588,QN19P0547,VÕ THỊ NGỌC ÁNH,2.24,4,4,29,0.55,0,2.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3588
+2026-03,9213,NA24P0284,Đậu Thị Hằng,2.24,6,7,218,0.68,0,2.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9213
+2026-03,7460,QG22P0608,NGUYỄN QUỐC NHẬT,2.23,2,4,25,0.53,0,2.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7460
+2026-03,8755,BD24P0381,LÊ THỊ TRÚC NGÂN,2.22,5,6,196,0.6,0,2.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8755
+2026-03,8570,QN24P0828,NGUYỄN THÀNH MẠNH,2.13,2,2,488,0.23,3,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8570
+2026-03,7241,HU22P0513,PHẠM THỊ HOÀI NHƯ,2.13,5,7,30,0.51,0,2.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7241
+2026-03,7634,QG22P0625,Trần Mai Phương,2.11,6,8,40,0.52,0,2.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7634
+2026-03,7990,QN23P0796,NGUYỄN TRẦN NHƯ HÒA,2.07,6,7,141,0.59,0,2.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7990
+2026-03,9167,QN25P0856,Nguyễn Dương Gia Bảo,2.05,2,2,17,0.55,0,2.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9167
+2026-03,5286,DN20P0393,NGUYỄN THIỆN NHÂN,2.03,6,8,49,0.53,0,2.03,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5286
+2026-03,7684,QT22P0422,TRỊNH THỊ NGỌC NHƯ,1.99,3,5,754,0.73,0,1.99,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7684
+2026-03,7213,QT22P0389,NGUYỄN THÀNH TRUNG,1.98,10,12,118,0.64,0,1.98,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7213
+2026-03,9008,NA24P0254,Nguyễn Thị Bảo Ngọc,1.9,5,5,338,0.71,0,1.9,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9008
+2026-03,8953,DT24P0808,Phạm Thị Ngọc Trinh,1.88,5,5,135,0.63,0,1.88,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8953
+2026-03,8160,QN23P0798,ĐINH HOÀNG KHÁNH NGỌC,1.88,2,4,97,0.5,3,0.15,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8160
+2026-03,7215,QT22P0391,LÊ NHƯ Ý,1.84,7,8,39,0.53,0,1.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7215
+2026-03,7224,QT22P0400,NGUYỄN THÚY HÀ,1.83,10,11,120,0.6,0,1.83,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7224
+2026-03,9061,BD25P0401,Phạm Bảo Khang,1.83,2,2,12,0.53,0,1.83,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9061
+2026-03,5113,QB20P0494,HOÀNG THỊ THÙY DƯƠNG,1.8,6,7,117,0.61,0,1.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5113
+2026-03,8559,QN24P0817,NGUYỄN HOÀNG THANH THUÝ,1.8,3,4,36,0.56,0,1.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8559
+2026-03,7978,QN23P0784,NGUYỄN THỊ XINH XINH,1.8,8,10,67,0.53,0,1.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7978
+2026-03,7316,PY22P0015,NGUYỄN LINH ĐAN,1.76,4,6,44,0.57,0,1.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7316
+2026-03,9199,QT25P0492,Nguyễn Mai Yến Như,1.74,4,5,41,0.55,0,1.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9199
+2026-03,9077,DN25P0540,Lê Đăng Phương Oanh,1.72,2,4,122,0.65,0,1.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9077
+2026-03,9174,QN25P0863,Nguyễn Hà My My,1.72,3,3,327,0.85,0,1.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9174
+2026-03,8545,QG24P0669,VÕ THANH DUY,1.72,4,10,154,0.57,2,1.45,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8545
+2026-03,7655,QG22P0611,Đinh Long Nhật,1.7,3,3,539,0.3,5,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7655
+2026-03,7958,QN23P0764,NGUYỄN NGỌC HÒA MY,1.69,4,6,39,0.57,0,1.69,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7958
+2026-03,8676,AG23P1198,Nguyễn Thị Bảo Gấm,1.69,3,3,28,0.55,0,1.69,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8676
+2026-03,6711,QB21P0557,NGUYỄN THỊ QUỲNH NHƯ,1.68,7,9,50,0.54,0,1.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6711
+2026-03,8949,DT24P0804,Phạm Ngọc Diệu Nghiêm,1.63,10,11,298,0.68,1,1.56,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8949
+2026-03,9164,QN25P0853,Huỳnh Thị Thanh Tâm,1.62,4,9,59,0.55,0,1.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9164
+2026-03,7183,QB22P0576,TRẦN TÂM NHƯ,1.6,6,7,140,0.69,0,1.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7183
+2026-03,7646,QN22P0745,Trần Nguyễn Hồng Ngọc,1.59,6,7,38,0.54,0,1.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7646
+2026-03,7327,DN22P0468,NGUYỄN NGỌC MINH THƯ,1.57,8,8,44,0.53,0,1.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7327
+2026-03,7969,QN23P0775,NGUYỄN THẢO VY,1.57,4,7,59,0.54,1,1.19,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7969
+2026-03,8551,QN24P0809,TRẦN THỊ TÂM,1.56,1,1,10,0.55,0,1.56,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8551
+2026-03,8592,DN24P0523,NGÔ QUANG NHÂN,1.53,3,4,41,0.55,0,1.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8592
+2026-03,9172,QN25P0861,Lê Thị Thảo Nguyên,1.51,4,4,180,0.61,1,1.43,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9172
+2026-03,6325,DN21P0440,NGUYỄN ĐẶNG MINH HƯƠNG,1.51,1,1,96,0.4,1,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6325
+2026-03,1906,QG19P0476,Nguyễn Đình Thơ,1.48,5,6,40,0.54,0,1.48,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1906
+2026-03,8371,QN23S0003,Hoang Thi Duyen,1.47,2,2,80,0.57,0,1.47,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8371
+2026-03,8501,JP24P0003,Phan Thị Huyền,1.46,6,8,143,0.62,0,1.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8501
+2026-03,7464,QN22P0738,HỒ THỊ TRÀ MY,1.44,7,9,56,0.56,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7464
+2026-03,7645,QN22P0744,Nguyễn Trần Khánh Vy,1.44,6,7,100,0.61,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7645
+2026-03,6722,HU21P0490,THÂN ĐẠI PHÁP,1.44,5,7,46,0.53,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6722
+2026-03,6694,DN21P0449,ĐOÀN GIA KHÁNH,1.44,1,2,40,0.53,0,1.44,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6694
+2026-03,9015,NA24P0265,Hoàng Minh Thư,1.4,2,2,33,0.6,0,1.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9015
+2026-03,8047,QT23P0451,NGUYỄN THỊ KHÁNH LY,1.4,8,9,47,0.56,0,1.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8047
+2026-03,8043,QT23P0447,HỒ NGỌC ANH THƯ,1.32,4,5,42,0.56,0,1.32,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8043
+2026-03,7240,HU22P0512,NGUYỄN PHƯỚC BẢO HOÀNG NHẬT HUY,1.3,6,7,36,0.55,0,1.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7240
+2026-03,2710,QN19P0561,CAOTHẢOVY,1.28,2,3,20,0.55,0,1.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2710
+2026-03,9012,NA24P0258,Lê Trần Khánh Phương,1.26,2,2,300,0.75,0,1.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9012
+2026-03,8171,NA23P0208,Lê Thị Thủy,1.24,3,4,138,0.61,0,1.24,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8171
+2026-03,8585,DN24P0516,HÀ THỊ BÍCH NGỌC,1.23,4,6,92,0.59,0,1.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8585
+2026-03,7229,QT22P0405,LÊ THỊ YẾN NHI,1.23,7,7,62,0.55,0,1.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7229
+2026-03,9056,BD25P0387,Nguyễn Duy Phát,1.23,5,8,51,0.55,0,1.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9056
+2026-03,8382,QN23S0008,Tran Thi My Tam,1.21,6,7,74,0.59,0,1.21,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8382
+2026-03,2683,QG19P0473,NGUYỄN THỊ HUYỀN DIỆU,1.2,5,6,70,0.67,0,1.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2683
+2026-03,8952,DT24P0807,Phan Thị Như Ý,1.19,6,7,60,0.56,0,1.19,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8952
+2026-03,5224,HU20P0388,TRẦN TRUNG HIẾU,1.17,3,3,8,0.5,0,1.17,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5224
+2026-03,6241,AD25P0001,Đặng Minh Phương,1.16,4,4,40,0.57,0,1.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6241
+2026-03,8576,QN24P0834,LÊ TẤN GIA BẢO,1.15,2,2,47,0.55,0,1.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8576
+2026-03,7186,QB22P0579,TRẦN THỊ THÚY,1.13,3,5,21,0.51,0,1.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7186
+2026-03,9194,QT25P0487,Bùi Thị Sony,1.12,3,4,32,0.55,0,1.12,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9194
+2026-03,7672,PY22P0024,LÊ THỊ HOÀI THƯƠNG,1.09,3,3,387,0.3,5,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7672
+2026-03,6708,PY21P0002,NGUYỄN THỊ THU THOA,1.08,3,3,160,0.6,1,0.32,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6708
+2026-03,9124,QG25G0690,Nguyễn Ngọc Trâm,1.08,3,3,42,0.55,0,1.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9124
+2026-03,7683,QT22P0421,TRẦN NGUYỄN PHƯƠNG NGUYÊN,1.08,5,6,84,0.58,0,1.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7683
+2026-03,9184,QN25P0873,Trần Hà Ngọc Trinh,1.08,4,4,133,0.66,0,1.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9184
+2026-03,2593,QB19P0403,VÕ NHƯ QUỲNH,1.06,2,3,8,0.53,0,1.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2593
+2026-03,3666,QG19P0514,Bùi Thị Lợi Khá,1.02,6,7,107,0.54,0,1.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3666
+2026-03,5447,BD20P0280,LÊ VÕ NGÂN HÀ,1.02,4,4,24,0.55,0,1.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5447
+2026-03,5105,QB20P0486,NGUYỄN THỊ NGỌC HUYỀN,1.02,4,4,120,0.64,0,1.02,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5105
+2026-03,8562,QN24P0820,MAI LÊ HOÀNG THƯƠNG,1.01,3,3,66,0.6,0,1.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8562
+2026-03,9079,DN25P0542,Nguyễn Thị Ngân Hà,1.01,5,6,40,0.55,0,1.01,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9079
+2026-03,7331,DN22P0472,VŨ THỊ MAI HƯƠNG,1.0,5,5,30,0.54,0,1.0,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7331
+2026-03,8641,QG24P0670,ĐỖ NGỌC BÌNH AN,1.0,1,2,35,0.57,1,0.37,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8641
+2026-03,8067,DN23P0483,NGUYỄN VĂN MINH KHÔI,0.99,2,3,40,0.55,0,0.99,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8067
+2026-03,8384,QT23S0001,Trinh Trung Nguyen,0.96,4,4,12,0.55,0,0.96,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8384
+2026-03,7295,QG22P0602,HỒ THỊ KIỀU,0.95,4,5,37,0.55,0,0.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7295
+2026-03,1336,QN18P0371,PHAN THÁI NHƯ NGỌC,0.95,2,3,22,0.55,0,0.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1336
+2026-03,8397,DT23P0688,Trần Lê Thanh Nhã,0.95,2,2,19,0.55,0,0.95,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8397
+2026-03,1807,DN19P0336,Nguyễn Hồ Kim Xuyến,0.94,1,1,80,0.7,0,0.94,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1807
+2026-03,8132,HU23P0538,PHẠM VIẾT THẮNG,0.93,1,2,38,0.55,0,0.93,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8132
+2026-03,8598,HU24P0564,NGUYỄN THỊ NHƯ THẢO,0.91,3,3,38,0.62,0,0.91,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8598
+2026-03,8566,QN24P0824,LƯƠNG NGUYÊN THỊNH,0.9,3,3,38,0.48,1,0.67,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8566
+2026-03,9073,DN25P0536,Văn Hoàng Viễn,0.88,1,1,55,0.4,1,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9073
+2026-03,9326,QB25G0637,LÊ THỊ YẾN NHI,0.86,2,3,55,0.65,0,0.86,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9326
+2026-03,8625,QB24P0622,NGUYỄN THỊ NHƯ QUỲNH,0.85,3,5,53,0.57,0,0.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8625
+2026-03,9180,QN25P0869,Trần Thị Huyền Trang,0.85,1,1,42,0.8,0,0.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9180
+2026-03,3580,QG19P0445,Đặng Lê Thanh Huyền,0.85,5,5,36,0.55,0,0.85,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3580
+2026-03,9035,TG14P0134,Trần Quỳnh Như,0.84,4,4,79,0.59,0,0.84,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9035
+2026-03,6437,QT21P0343,LÊ THỊ THẢO NHI,0.81,3,3,211,0.68,0,0.81,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6437
+2026-03,5604,QN20U0630,Phạm Thị Phương Thanh,0.8,3,3,9,0.5,0,0.8,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5604
+2026-03,8097,BD23P0355,HUỲNH THỊ BẢO NGỌC,0.79,3,4,33,0.55,0,0.79,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8097
+2026-03,3660,QB19P0419,DƯƠNG THỊ ÁNH THƯ,0.78,3,3,10,0.52,0,0.78,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3660
+2026-03,9046,BD25G0402,Nguyễn Thanh Thảo,0.77,5,5,33,0.55,0,0.77,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9046
+2026-03,8577,QN24P0835,HOÀNG THU HỒNG,0.76,3,4,31,0.55,0,0.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8577
+2026-03,5203,HU20P0367,Đỗ Phan Thuỵ Thuỳ Nhung,0.76,2,2,77,0.6,0,0.76,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5203
+2026-03,5160,QT20P0289,NGUYỄN THỊ THÙY DUYÊN,0.75,3,3,21,0.55,0,0.75,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5160
+2026-03,7949,QN23P0755,BÙI NGỌC DIỆP,0.74,4,5,49,0.6,0,0.74,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7949
+2026-03,8110,PY23P0031,HỒ LÊ BẢO TRÂN,0.72,3,4,30,0.55,0,0.72,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8110
+2026-03,3500,QN19P0525,Nguyễn Quang Minh,0.69,2,2,49,0.48,1,0.13,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3500
+2026-03,7265,QN22P0718,LÂM THỊ KIM ANH,0.68,4,4,26,0.55,0,0.68,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7265
+2026-03,7846,DT22P0726,Lê Thị Kim Đồng,0.66,3,3,74,0.58,0,0.66,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7846
+2026-03,8033,QT23P0437,PHẠM NHƯ NHẬT QUỐC,0.65,3,3,24,0.57,0,0.65,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8033
+2026-03,8190,NA23P0228,Hồ Thị Huyền Trang,0.64,1,2,92,0.75,0,0.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8190
+2026-03,8475,NA23P0238,Trần Thị Hà Vy,0.64,3,5,49,0.56,0,0.64,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8475
+2026-03,7175,PY23P0041,VÕ LÊ MINH TRÍ,0.64,1,1,226,0.25,2,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7175
+2026-03,9146,QN25G0897,Lê Hoàng Dũng,0.63,2,2,52,0.57,0,0.63,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9146
+2026-03,8076,DN23P0492,NGUYỄN THỊ NY,0.63,6,7,38,0.55,0,0.63,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8076
+2026-03,2030,QT19U0264,Lê Hữu Hưng,0.62,1,1,24,0.6,0,0.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2030
+2026-03,236,QB18P0380,PHAN VIẾT TOÀN,0.62,2,2,62,0.68,0,0.62,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=236
+2026-03,9229,NA24P0261,Nguyễn Thị Thùy Trâm,0.61,4,5,26,0.54,0,0.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9229
+2026-03,7284,QG22P0591,PHAN MINH HIỀN,0.61,3,3,23,0.55,0,0.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7284
+2026-03,3485,QB19P0427,Võ Thị Hoài Phương,0.61,4,4,28,0.55,0,0.61,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3485
+2026-03,8074,DN23P0490,NGUYỄN HỒNG HUYỀN TRÂN,0.6,4,4,27,0.55,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8074
+2026-03,7934,QB23P0604,NGUYỄN TRÀ GIANG,0.6,4,4,25,0.56,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7934
+2026-03,6278,BD21P0298,ĐẶNG NGUYỄN ANH TUẤN,0.6,1,1,13,0.55,0,0.6,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6278
+2026-03,7930,QB23P0600,LÊ TRẦN THANH NGÂN,0.59,2,2,17,0.55,0,0.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7930
+2026-03,481,QG18P0402,NGUYỄN NHƯ THUẬT,0.59,1,2,11,0.55,0,0.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=481
+2026-03,7315,PY22P0014,NGUYỄN THANH TÚ,0.59,2,2,180,0.77,0,0.59,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7315
+2026-03,8170,NA23P0207,Bùi Quỳnh Như,0.57,2,2,20,0.55,0,0.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8170
+2026-03,9188,QT25G0494,Phạm Hoàng Phúc An,0.57,2,2,13,0.53,0,0.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9188
+2026-03,2569,HU19P0340,TRẦNTHỊ KIMMỸ,0.57,3,3,23,0.57,0,0.57,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2569
+2026-03,7304,BD22P0335,DƯƠNG TƯỜNG NHI,0.55,7,8,52,0.57,0,0.55,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7304
+2026-03,8388,QT23S0003,Le Nguyen Ngoc Linh,0.53,4,5,92,0.71,0,0.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8388
+2026-03,9121,QG25G0687,Nguyễn Võ Như Quỳnh,0.53,3,3,37,0.55,0,0.53,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9121
+2026-03,9118,QG25G0683,Võ Thị Quỳnh Như,0.52,2,2,13,0.55,0,0.52,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9118
+2026-03,8375,QG23S0003,Vo Ngoc Bich Tram,0.51,2,2,7,0.55,0,0.51,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8375
+2026-03,1347,QN18P0382,Nguyễn Quang Sáng,0.5,1,1,12,0.55,0,0.5,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1347
+2026-03,8744,BD24P0379,PHẠM THỊ TRÀ GIANG,0.48,1,2,72,0.72,0,0.48,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8744
+2026-03,8967,DT24P0822,Đinh Thị Yến Vy,0.47,2,2,65,0.62,0,0.47,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8967
+2026-03,5659,QN20P0639,PHẠM VÕ ĐỨC,0.46,3,3,22,0.57,0,0.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5659
+2026-03,9131,QG25P0678,Đỗ Đặng Kiều Vy,0.46,2,3,32,0.57,0,0.46,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9131
+2026-03,5445,BD20P0278,TRƯƠNG ANH TUẤN,0.45,2,2,8,0.55,0,0.45,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5445
+2026-03,7275,QN22P0728,NGUYỄN MAI VY,0.43,2,2,28,0.4,2,0.0,HAS ANOMALIES,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7275
+2026-03,8127,HU23P0533,NGUYỄN MINH THI,0.43,3,3,27,0.55,0,0.43,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8127
+2026-03,7260,QN22P0713,ĐOÀN THỊ THẢO LY,0.43,2,2,8,0.55,0,0.43,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7260
+2026-03,8532,BD24P0375,NGUYỄN PHẠM QUỲNH ANH,0.42,1,1,7,0.55,0,0.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8532
+2026-03,8021,QG23P0655,TRẦN VÕ THẢO VY,0.42,3,4,75,0.56,0,0.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8021
+2026-03,8499,AG23P1182,Tô Nguyễn Huỳnh Như,0.42,1,1,31,0.7,0,0.42,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8499
+2026-03,5338,QN20P0623,NGUYỄN THỊ NGHĨA,0.41,2,2,14,0.55,0,0.41,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5338
+2026-03,816,DN18P0248,NGUYỄN THỊ THANH MAI,0.4,2,2,26,0.55,0,0.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=816
+2026-03,3587,QN19P0557,NGUYỄN THỊ THU TRÂM,0.4,2,2,12,0.55,0,0.4,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3587
+2026-03,9083,DN25P0546,Lê Huỳnh Trúc Ngân,0.38,2,2,41,0.55,0,0.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9083
+2026-03,8643,HU24P0575,NGUYỄN THỊ CẨM TÚ,0.38,2,3,90,0.58,0,0.38,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8643
+2026-03,8385,QT23S0002,Doan Thi Thu Trang,0.37,1,1,20,0.35,1,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8385
+2026-03,8027,QT23P0431,LÊ THỊ MỸ HẠNH,0.37,1,1,57,0.35,1,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8027
+2026-03,8101,BD23P0359,NGUYỄN MAI NHƯ NGỌC,0.37,2,2,18,0.55,0,0.37,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8101
+2026-03,9082,DN25P0545,Nguyễn Ngọc Diệp,0.37,1,1,21,0.55,0,0.37,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9082
+2026-03,9197,QT25P0490,Nguyễn Ngọc Bảo Trân,0.36,2,2,20,0.55,0,0.36,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9197
+2026-03,9158,QN25P0847,Trương Thị Quỳnh Thi,0.36,1,1,22,0.85,0,0.36,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9158
+2026-03,8128,HU23P0534,LÊ THỊ THANH NHÀN,0.35,3,4,35,0.55,0,0.35,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8128
+2026-03,7900,AG22P1146,Nguyễn Thị Thanh Trúc,0.35,1,1,9,0.6,0,0.35,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7900
+2026-03,551,QG17P0122,BÙI THỊ MỸ NƯƠNG,0.34,1,1,3,0.5,0,0.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=551
+2026-03,1593,HU18P0225,LÊ CÔNG KHANH,0.34,1,1,3,0.55,0,0.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1593
+2026-03,6724,QN21P0692,TRƯƠNG THỊ PHƯƠNG MAI,0.34,1,1,13,0.55,0,0.34,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6724
+2026-03,6718,QG21P0587,VÕ THỊ SAN SAN,0.33,1,1,7,0.55,0,0.33,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6718
+2026-03,2676,QG19P0464,NGUYỄNTHỊ ÁNHNGỌC,0.31,1,1,6,0.55,0,0.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2676
+2026-03,5368,QG20P0542,TRƯƠNG THỊ NHƯ Ý,0.31,2,2,13,0.55,0,0.31,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5368
+2026-03,8548,QN24P0806,HỒ QUỐC HUY,0.3,3,3,15,0.55,0,0.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8548
+2026-03,6733,QN21P0691,TRƯƠNG THÀNH DANH,0.3,1,1,13,0.55,0,0.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6733
+2026-03,8115,PY23P0036,ĐÀO LÊ MINH HOÀNG,0.3,2,2,9,0.53,0,0.3,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8115
+2026-03,8108,BD23P0366,HÀ YẾN VY,0.28,2,3,20,0.53,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8108
+2026-03,484,QG18P0362,NGUYỄN THỊ TRANG,0.28,1,1,9,0.5,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=484
+2026-03,3590,QN19P0549,TRẦN THỊ ANH TRÚC,0.28,1,1,11,0.55,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3590
+2026-03,8203,AG22P1171,Võ Mỹ Duyên,0.28,1,1,7,0.55,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8203
+2026-03,7209,QT22P0385,ĐẶNG THỊ THÙY MY,0.28,2,2,17,0.57,0,0.28,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7209
+2026-03,8541,QG24P0665,LÊ NGUYỄN HẠNH NHẤT,0.27,1,1,5,0.55,0,0.27,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8541
+2026-03,7981,QN23P0787,PHẠM THỊ MỸ LINH,0.27,1,1,16,0.6,0,0.27,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7981
+2026-03,8623,QT24P0483,LÊ NGỌC KIỀU DIỄM,0.26,2,2,16,0.57,0,0.26,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8623
+2026-03,8369,QN23S0001,Nguyen Trong Hoa,0.25,2,2,31,0.65,0,0.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8369
+2026-03,7656,QN24P0816,Đinh Thị Lan Anh,0.25,1,1,14,0.6,0,0.25,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7656
+2026-03,5397,NA20P0177,HOÀNG VĂN TRUNG,0.23,2,2,38,0.6,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5397
+2026-03,7976,QN23P0782,LÊ NGUYỄN PHƯƠNG TRINH,0.23,1,1,30,0.65,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7976
+2026-03,9117,QG25G0682,Phạm Thị Mỹ Châu,0.23,1,1,11,0.55,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9117
+2026-03,8950,DT24P0805,Trần Thị Tường Vy,0.23,1,1,2,0.5,0,0.23,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8950
+2026-03,7320,DN22P0461,NGUYỄN MỸ KỲ DUYÊN,0.22,1,1,11,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7320
+2026-03,3922,BD19P0204,NGUYỄN THỊ THÙY TRANG,0.22,1,1,13,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3922
+2026-03,8502,JP24P0004,Nguyễn Thị Tâm,0.22,3,3,25,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8502
+2026-03,8401,DT23P0744,Đỗ Kim Đầm,0.22,1,1,21,0.55,0,0.22,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8401
+2026-03,8538,QG24P0662,BÙI VĂN TÍN,0.21,1,1,59,0.25,2,0.0,REVIEW REQUIRED,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8538
+2026-03,8591,DN24P0522,NGUYỄN THIÊN PHƯỚC,0.21,1,1,6,0.55,0,0.21,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8591
+2026-03,3921,BD19P0205,NGUYỄN NGÔ TÂY,0.2,1,1,38,0.5,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3921
+2026-03,5143,QT20P0272,NGUYỄN THỊ HƯỜNG,0.2,1,1,9,0.55,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5143
+2026-03,8422,DT23P0763,Ngô Lê Như Ngọc,0.2,3,3,19,0.55,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8422
+2026-03,6736,QN21P0699,ĐẶNG THỊ KIỀU ANH,0.2,1,1,19,0.55,0,0.2,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6736
+2026-03,8123,HU23P0529,TRẦN HUỲNH VÂN ANH,0.19,1,1,9,0.55,0,0.19,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8123
+2026-03,5190,QT20P0319,NGUYỄN THỊ HOÀI THƯƠNG,0.18,1,1,7,0.55,0,0.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5190
+2026-03,8098,BD23P0356,NGUYỄN TRÀ MY,0.18,1,1,11,0.55,0,0.18,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8098
+2026-03,8575,QN24P0833,HUỲNH THỊ BÌNH MINH,0.17,2,2,44,0.65,0,0.17,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8575
+2026-03,6359,QB21P0551,LÊ QUANG THUẬN,0.17,1,1,24,0.6,0,0.17,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6359
+2026-03,176,AG15P0734,Lê Ngọc Như,0.16,2,2,26,0.57,0,0.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=176
+2026-03,8137,HU23P0543,TRẦN HẢI NGỌC TRÂN,0.16,1,1,19,0.85,0,0.16,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8137
+2026-03,7956,QN23P0762,PHAN TỀ BÍCH LY,0.15,1,1,41,0.65,0,0.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7956
+2026-03,9091,HU25P0578,Tràn Đỗ Vân Anh,0.15,1,1,6,0.55,0,0.15,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9091
+2026-03,8125,HU23P0531,NGUYỄN PHƯƠNG ANH,0.13,1,1,4,0.5,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8125
+2026-03,9178,QN25P0867,Nguyễn Huỳnh Như Ý,0.13,1,2,71,0.5,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9178
+2026-03,9013,NA24P0259,Nguyễn Thị Thùy Trang,0.13,1,1,11,0.55,0,0.13,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9013
+2026-03,1545,QT18P0085,HOÀNG TẤN PHÚ QUỐC,0.12,1,1,11,0.55,0,0.12,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=1545
+2026-03,8557,QN24P0815,NGUYỄN THỊ THU YÊN,0.12,1,1,20,0.55,0,0.12,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8557
+2026-03,7897,AG22P1143,Lý Nguyễn Mai Xuân,0.11,2,2,31,0.55,0,0.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7897
+2026-03,9433,QT25G0500,Pham Thi Hoa Ly,0.11,1,2,21,0.6,0,0.11,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9433
+2026-03,300,QT18P0088,NGUYỄN THỊ MINH HIỆP,0.1,1,1,9,0.55,0,0.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=300
+2026-03,5184,QT20P0313,NGUYỄN ĐỨC NHÂN,0.1,1,1,8,0.5,0,0.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5184
+2026-03,8473,NA23P0236,Vương Thị Hòa,0.1,1,2,6,0.55,0,0.1,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8473
+2026-03,6401,QN21P0676,LÊ THỊ YẾN QUỲNH,0.09,1,1,13,0.6,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6401
+2026-03,9110,QB25P0633,Lê Phương Thảo,0.09,1,1,5,0.55,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9110
+2026-03,8582,DN24P0513,NGÔ VŨ KIỀU ANH,0.09,1,1,10,0.65,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8582
+2026-03,8965,DT24P0820,Nguyễn Ngọc Thiên Ý,0.09,1,1,2,0.5,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8965
+2026-03,5149,QT20P0278,PHẠM THỊ KIỀU MY,0.09,1,1,11,0.6,0,0.09,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5149
+2026-03,6506,HU21P0488,LÊ PHẠM KHÁNH NGÂN,0.08,1,1,19,0.7,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6506
+2026-03,3579,QG19P0517,Lê Tấn Sinh,0.08,1,1,6,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=3579
+2026-03,5313,QN20P0598,LƯƠNG THỊ PHƯƠNG THẢO,0.08,1,1,17,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5313
+2026-03,8029,QT23P0433,NGUYỄN HỒ ÁI QUỲNH,0.08,1,1,28,0.6,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8029
+2026-03,5450,BD20P0283,TRẦN BẢO NGUYÊN,0.08,1,1,8,0.5,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5450
+2026-03,8383,QB23S0016,Truong My Hoa,0.08,1,1,6,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8383
+2026-03,906,QG18P0423,VÕ DUY GIA HÂN,0.08,1,1,2,0.5,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=906
+2026-03,8531,BD24P0374,ĐẶNG THỊ THÚY HẰNG,0.08,1,1,9,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8531
+2026-03,5647,DN20P0415,Đỗ Thị Minh Nguyệt,0.08,1,1,7,0.55,0,0.08,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=5647
+2026-03,8620,QT24P0480,PHẠM THÙY LINH,0.07,1,1,5,0.55,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8620
+2026-03,7960,QN23P0766,TRẦN HỮU QUỐC TRUNG,0.07,1,1,27,0.6,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7960
+2026-03,9116,QG25G0681,Võ Nguyễn Bảo Châu,0.07,1,1,8,0.55,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9116
+2026-03,9014,NA24P0260,Đinh Thị Yến,0.07,1,1,14,0.65,0,0.07,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9014
+2026-03,717,QB18P0312,LÊ THỊ BẢO NGỌC,0.06,1,1,7,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=717
+2026-03,6715,QG21P0578,NGUYỄN HOÀNG THANH THẢO,0.06,1,1,11,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6715
+2026-03,6705,NA21P0201,NGUYỄN THỊ YẾN NHI,0.06,1,1,7,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=6705
+2026-03,2684,QG19P0474,NGUYỄNLÊ KIỀUDIỄM,0.06,1,1,6,0.55,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=2684
+2026-03,9078,DN25P0541,Nguyễn Phúc Huy,0.06,1,1,4,0.5,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9078
+2026-03,9055,BD25P0386,Nguyễn Đức Trường Thiên,0.06,1,1,9,0.65,0,0.06,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=9055
+2026-03,7469,QT22P0413,LÊ HOÀNG THÙY TRANG,0.05,1,1,10,0.6,0,0.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=7469
+2026-03,8642,QN24P0837,NGUYỄN VIỆT THIÊN KIỀU,0.05,1,1,6,0.55,0,0.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8642
+2026-03,8141,HU23P0547,TRẦN ĐỖ NHƯ QUỲNH,0.05,1,1,6,0.55,0,0.05,CLEAN,0,https://glow.paclinks.org/report/log/index.php?chooselog=1&logreader=logstore_standard&id=0&user=8141

@@ -32,8 +32,10 @@ class SessionDetector:
             sessions = self._detect_user_sessions(user_logs)
             all_sessions.extend(sessions)
 
-        print(f"[SessionDetector] {len(all_sessions)} sessions "
-              f"for {len(user_entries)} users")
+        print(
+            f"[SessionDetector] {len(all_sessions)} sessions "
+            f"for {len(user_entries)} users"
+        )
         return all_sessions
 
     def _detect_user_sessions(self, user_logs: list[LogEntry]) -> list[Session]:
@@ -76,9 +78,7 @@ class SessionDetector:
             return self.config.media_threshold_sec
         return self.config.default_threshold_sec
 
-    def _build_session(
-        self, events: list[LogEntry], ips: set
-    ) -> Optional[Session]:
+    def _build_session(self, events: list[LogEntry], ips: set) -> Optional[Session]:
         """Build Session from events, apply min filters."""
         if len(events) < self.config.min_events_per_session:
             return None
@@ -96,6 +96,8 @@ class SessionDetector:
             session_id=self._session_counter,
             user_id=first.user_id,
             user_name=first.user_name,
+            pals_id=first.pals_id,
+            fullname=first.fullname,
             start_time=first.timestamp,
             end_time=last.timestamp + timedelta(seconds=bonus),
             raw_duration_sec=raw_duration,
