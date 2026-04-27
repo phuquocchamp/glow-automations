@@ -52,7 +52,7 @@ glow-automation/
 
 - Python >= 3.10
 - No database required — fully file-based CSV processing
-- No internet required — offline processing
+- `crawl.py` requires internet access to download logs from Moodle; `run.py` processes locally and works offline
 
 ## Installation
 
@@ -85,61 +85,85 @@ pip install -e .
 
 ## Usage
 
-### 1. Prepare data
+### 1. Download logs with `crawl.py`
 
-Credentials for `crawl.py` are read from `.env` (`GLOW_USERNAME`, `GLOW_PASSWORD`).
-All other settings (base URL, timezone, year/month, thresholds, anomalies, reporting) are read from `config/default.yaml`.
-
-Download logs from Moodle:
-
-- Go to **Site administration → Reports → Logs**
-- Select **All participants**, **All days**, **All activities**, **All actions**
-- Important: select **Site logs** (not course-level logs)
-- Click **Get these logs** → Download CSV
-- Name the file `YYYY-MM-DD.csv` and place it in `data/input/`
-
-### 2. Run with default config
+Credentials are read from `.env` (`GLOW_USERNAME`, `GLOW_PASSWORD`). All other settings (base URL, timezone, year/month) are read from `config/default.yaml`.
 
 ```bash
-python run.py data/input/2026-03-29.csv
+# Download logs for the year/month defined in config/default.yaml
+python crawl.py
+
+# Override year and/or month
+python crawl.py --year 2026 --month 3
+
+# Re-download even if files already exist
+python crawl.py --year 2026 --month 3 --force
+
+# Set delay between requests (default: 1.0 second)
+python crawl.py --year 2026 --month 3 --delay 2.0
+
+# Use a different config file
+python crawl.py --config config/default.yaml
+
+# Save files to a different directory (default: data/input)
+python crawl.py --output data/input
 ```
 
-Output is saved to `data/output/`:
+Files are saved as `data/input/{year}/{mm}/{yyyy-mm-dd}.csv`.
 
-```
-data/output/
-├── report_per_user.csv            # Total hours per student
-├── report_per_user_course.csv     # Hours per student × course
-├── report_sessions.csv            # Individual session details
-├── report_anomalies.csv           # Flagged sessions
-└── evidence_audit_trail.csv       # Full audit trail for compliance
-```
+`crawl.py` flags:
 
-### 3. Run with custom config
+| Flag | Default | Description |
+| ---- | ------- | ----------- |
+| `--config`, `-c` | `config/default.yaml` | Path to YAML config file |
+| `--output`, `-o` | `data/input` | Directory to save downloaded CSV files |
+| `--year` | from `config general.year` | Year to crawl; overrides config value |
+| `--month` | from `config general.month` | Month to crawl; overrides config value |
+| `--force` | `false` | Re-download files even if they already exist |
+| `--delay` | `1.0` | Delay in seconds between each request |
+
+**Manual download alternative:** Go to **Site administration → Reports → Logs**, select **All participants**, **All days**, **All activities**, **All actions**, and **Site logs** (not course-level). Click **Get these logs** → Download CSV, name it `YYYY-MM-DD.csv`, and place it in `data/input/`.
+
+### 2. Process a full month with `run.py`
+
+`--dir` is required. Pass the directory containing all `*.csv` files for the month.
 
 ```bash
-# Edit config/default.yaml then run
-python run.py data/input/2026-03-29.csv --config config/default.yaml
+# Basic — uses built-in config defaults
+python run.py --dir data/input/2026/03
 
-# Or override individual values via CLI
-python run.py data/input/2026-03-29.csv \
+# With a config file
+python run.py --dir data/input/2026/03 --config config/default.yaml
+
+# Override individual thresholds (applied on top of YAML config)
+python run.py --dir data/input/2026/03 --config config/default.yaml \
     --threshold 1800 \
     --media-threshold 3600 \
     --max-bonus 300 \
     --min-session 60 \
-    --output data/output
+    --min-events 2
+
+# Save reports to a custom directory
+python run.py --dir data/input/2026/03 --output data/output/custom
 ```
 
-### 4. Batch mode — process a full month
+`run.py` flags:
 
-```bash
-python run.py --dir data/input/2026/03 --config config/default.yaml
-```
+| Flag | Default | Description |
+| ---- | ------- | ----------- |
+| `--dir`, `-d` | *(required)* | Directory containing `*.csv` log files for the month |
+| `--config`, `-c` | none | Path to YAML config file |
+| `--output`, `-o` | `data/output` | Directory to save reports |
+| `--threshold` | from config | Session gap threshold in seconds |
+| `--media-threshold` | from config | Gap threshold for H5P/Page/Video content in seconds |
+| `--max-bonus` | from config | Max bonus per session in seconds |
+| `--min-session` | from config | Minimum session duration to keep in seconds |
+| `--min-events` | from config | Minimum events per session to keep |
 
-Processes all `*.csv` files in the directory and automatically generates:
+Processes all `*.csv` files in the directory in sorted order and automatically generates:
 
-- `data/output/2026/03/detail_2026-03.csv` — detailed session rows
-- `data/output/2026/03/monthly_summary_2026-03.csv` — aggregated by user
+- `data/output/2026/03/detail_2026-03.csv` — one row per user per day, sorted by User Name + Date
+- `data/output/2026/03/monthly_summary_2026-03.csv` — aggregated by user for the month
 
 User identity handling:
 
@@ -147,7 +171,7 @@ User identity handling:
 - `PALS_ID` is uppercased, validated against `reporting.PALS_REGEX` in `config/default.yaml`.
 - Rows with invalid `PALS_ID` are filtered out before session/report generation.
 
-### 5. Programmatic usage
+### 4. Programmatic usage
 
 ```python
 from src.moodle_tracker.engine import MoodleTimeTracker

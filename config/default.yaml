@@ -13,8 +13,8 @@ moodle:
 
 # --- General Config ---
 general:
-  year: 2026
-  month: 3
+  year: 2025
+  month: 10
 
 # --- Session Detection ---
 session:
